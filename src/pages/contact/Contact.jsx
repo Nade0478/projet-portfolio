@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Menu from "../../components/Menu";
-import Footer from "../../components/Footer";
-import "../../styles/home.css";
+import Menu from "../component/basics/Menu";
+import Footer from "../components/basics/Footer";
+import "../styles/Home.css";
 
 export default function Contact() {
   const [form, setForm] = useState({

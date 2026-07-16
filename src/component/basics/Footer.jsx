@@ -1,8 +1,10 @@
 import React from "react";
-const Footer = () => {
+
+export default function Footer() {
   return (
     <footer className="footer">
       <p>© 2023 Company Name. All rights reserved.</p>
+
       <ul className="footer-links">
         <li>
           <a href="#home">Home</a>
@@ -19,5 +21,4 @@ const Footer = () => {
       </ul>
     </footer>
   );
-};
-export default Footer;
+}

@@ -1,16 +1,19 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./component/home/Home";
-import Contact from "./component/home/Contact";
-import Portfolio from "./component/home/Portfolio";
+import Home from "./pages/home/Home";
+import Contact from "./pages/contact/Contact";
+import Menu from "../../component/basics/Menu";
+import Footer from "../../component/basics/Footer";
+import "../../styles/home.css";
 
 function App() {
   return (
     <BrowserRouter>
+      <Menu /> {/* si tu veux le menu partout */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
+      <Footer /> {/* si tu veux le footer partout */}
     </BrowserRouter>
   );
 }
