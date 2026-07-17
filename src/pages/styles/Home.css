@@ -45,10 +45,59 @@
 }
 
 /* CARTES */
-.portfolio-card {
+.portfolio-card1 {
   padding: 20px;
   border-radius: 10px;
-  background-color: #f7f7f7;
+  background-color: #b18d8d;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.portfolio-card3 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #a4c6c1;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.portfolio-card4 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #a4a189;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.portfolio-card5 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #b789b5;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.portfolio-card6 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #9eb0ba;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.portfolio-card7 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #8ba794;
   text-decoration: none;
   color: #333;
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -115,17 +164,17 @@
 }
 
 .logo-img {
-  width: 60px;
-  height: 60px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
 }
 
 .portfolio-card2 {
   padding: 50px;
   border-radius: 200px;
-  background-color: #c0790f;
+  background-color: #4e4334;
   text-decoration: none;
-  color: #333;
+  color: #fbf2f2;
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
   transition: 0.3s;
   position: relative;

@@ -26,27 +26,27 @@ export default function Portfolio() {
       </p>
 
       <div className="portfolio-grid">
-        <Link to="/dev" className="portfolio-card">
+        <Link to="/dev" className="portfolio-card1">
           <h3>Développement Web</h3>
           <p>React, Laravel, API, Front & Back</p>
         </Link>
 
-        <Link to="/tests" className="portfolio-card">
+        <Link to="/tests" className="portfolio-card3">
           <h3>Testeur ISTQB</h3>
           <p>Tests fonctionnelles et automatisations</p>
         </Link>
 
-        <Link to="/projet" className="portfolio-card">
+        <Link to="/projet" className="portfolio-card4">
           <h3>Gestion de Projet</h3>
           <p>Organisation, planification, pilotage</p>
         </Link>
 
-        <Link to="/cyber" className="portfolio-card">
+        <Link to="/cyber" className="portfolio-card5">
           <h3>Cybersécurité</h3>
           <p>Analyse, prévention, bonnes pratiques</p>
         </Link>
 
-        <Link to="/adm" className="portfolio-card">
+        <Link to="/adm" className="portfolio-card6">
           <h3>Assistante Administrative</h3>
           <p>
             Pack Office, Gestion d'agenda, Standard, traitement de dossier
@@ -54,7 +54,7 @@ export default function Portfolio() {
           </p>
         </Link>
 
-        <Link to="/cons" className="portfolio-card">
+        <Link to="/cons" className="portfolio-card7">
           <h3>Conseillère clientèle à distance</h3>
           <p>Gestion de demande client, prise de rendez-vous , SAV</p>
         </Link>
