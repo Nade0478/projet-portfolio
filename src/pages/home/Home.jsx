@@ -32,8 +32,8 @@ export default function Portfolio() {
         </Link>
 
         <Link to="/tests" className="portfolio-card">
-          <h3>Tests Logiciels</h3>
-          <p>ISTQB, QA, automatisation</p>
+          <h3>Logiciels</h3>
+          <p>ISTQB, QA, automatisation, méthode Agile, Scrum</p>
         </Link>
 
         <Link to="/projet" className="portfolio-card">
@@ -45,6 +45,17 @@ export default function Portfolio() {
           <h3>Cybersécurité</h3>
           <p>Analyse, prévention, bonnes pratiques</p>
         </Link>
+
+        <Link to="/dev" className="portfolio-card">
+          <h3>Assistante Administrative</h3>
+          <p>Pack Office, </p>
+        </Link>
+
+        <Link to="/dev" className="portfolio-card">
+          <h3>Conseillère clientèle à distance</h3>
+          <p>Gestion de demande client, prise de rendez-vous , SAV</p>
+        </Link>
+
       </div>
     </div>
   );

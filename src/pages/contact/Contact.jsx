@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import Menu from "../component/basics/Menu";
-import Footer from "../components/basics/Footer";
-import "../styles/Home.css";
+import Footer from "../../component/basics/Footer";
+import "../styles/Contact.css";
 
 export default function Contact() {
   const [form, setForm] = useState({
@@ -21,8 +20,6 @@ export default function Contact() {
 
   return (
     <>
-      <Menu />
-
       <div className="contact-container">
         <h1 className="contact-title">Contactez-moi</h1>
 
@@ -62,7 +59,6 @@ export default function Contact() {
         </form>
       </div>
 
-      <Footer />
     </>
   );
 }
