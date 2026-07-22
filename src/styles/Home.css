@@ -1,3 +1,13 @@
+/* FOND ECRAN PAGE PRINCIPALE */
+.font-ecran {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+
 /* CONTAINER PRINCIPAL */
 .portfolio-container {
   text-align: center;

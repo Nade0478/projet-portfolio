@@ -1,0 +1,44 @@
+.dev-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.dev-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.dev-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.dev-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.dev-card h2 {
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+
+.dev-card h3 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.dev-card ul {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.dev-card li {
+  margin-bottom: 6px;
+}
