@@ -1,0 +1,26 @@
+/* ================================
+   Fond d'écran global
+================================ */
+
+body {
+  background-image: url("../../public/fond-ecran-portfolio.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-family: "Alata", sans-serif;
+}
+
+.page-container {
+  background: rgba(255, 255, 255, 0.75);
+
+  /* Compatibilité totale */
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 1200px;
+}

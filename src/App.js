@@ -16,6 +16,7 @@ import Div from "./pages/metier/Div";
 
 import Menu from "./component/basics/Menu";
 import Footer from "./component/basics/Footer";
+import "./styles/Pages.css";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Footer from "../../component/basics/Footer";
+// import Footer from "../../component/basics/Footer";
 import "../../styles/Contact.css";
 
 export default function Contact() {
@@ -58,8 +58,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-
-      <Footer />
     </>
   );
 }

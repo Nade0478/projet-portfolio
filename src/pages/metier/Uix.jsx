@@ -11,7 +11,7 @@ export default function Uix() {
     },
     {
       label: "Frameworks & Outils",
-      items: ["React", "Laravel", "Node.js", "MySQL", "GitHub"],
+      items: ["Figma", "Laravel", "Node.js", "MySQL", "GitHub"],
     },
     {
       label: "Méthodes",
