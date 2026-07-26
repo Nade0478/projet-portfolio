@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/Footer.css";
 
 export default function Footer() {
   return (
@@ -7,13 +8,10 @@ export default function Footer() {
 
       <ul className="footer-links">
         <li>
-          <a href="#home">Home</a>
+          <a href="#linkdin">Linkedin</a>
         </li>
         <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
+          <a href="#github">Github</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
