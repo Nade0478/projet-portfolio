@@ -60,8 +60,8 @@ export default function Home() {
         </Link>
 
         <Link to="/div" className="portfolio-card2">
-          <h3>Méthode et Language</h3>
-          <p>Agile, Scrum, Leen</p>
+          <h3>Diverses</h3>
+          <p>Anglais, </p>
         </Link>
       </div>
     </div>

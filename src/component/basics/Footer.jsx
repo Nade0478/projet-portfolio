@@ -8,13 +8,28 @@ export default function Footer() {
 
       <ul className="footer-links">
         <li>
-          <a href="#linkdin">Linkedin</a>
+          <a
+            href="https://www.linkedin.com/in/nadège-gautier-8b0b3b301"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+          </a>
         </li>
+
         <li>
-          <a href="#github">Github</a>
+          <a
+            href="https://github.com/Nade0478"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
         </li>
+
         <li>
-          <a href="#contact">Contact</a>
+          <a href="/contact">Contact</a>
+          
         </li>
       </ul>
     </footer>

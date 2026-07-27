@@ -15,7 +15,7 @@ body {
   margin: 1% 0%;
   padding: 0.6% 0%;
   color: rgb(239, 239, 239);
-  font-size: 5em;
+  font-size: 10em;
 }
 
 .footer .row a {
@@ -38,7 +38,7 @@ body {
 }
 
 .footer .row a i {
-  font-size: 6em;
+  font-size: 10em;
   margin: 0% 1%;
 }
 

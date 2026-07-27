@@ -24,7 +24,7 @@ export default function Dev() {
           name: "Portfolio React",
           description: "Site personnel moderne en React.",
           image: "/assets/captures/portfolio.png",
-          link: "https://github.com/ton-projet",
+          link: "https://github.com/Nade0478/Ecoride-projet",
         },
       ],
     },
