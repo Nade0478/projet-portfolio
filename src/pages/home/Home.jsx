@@ -28,7 +28,7 @@ export default function Home() {
       <div className="portfolio-grid">
         <Link to="/dev" className="portfolio-card1">
           <h3>Développement Web</h3>
-          <p>React, Laravel, API, Front & Back</p>
+          <p>React, Laravel, API, Front et Back</p>
         </Link>
 
         <Link to="/tests" className="portfolio-card3">

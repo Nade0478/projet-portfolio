@@ -9,16 +9,6 @@ export default function Menu() {
         <li>
           <Link to="/">Accueil</Link>
         </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-        <li>
-          <Link to="/cv">CV</Link>
-        </li>
-        <li>
-          <Link to="/portfolio">Portfolio</Link>
-        </li>
-
         {/* Sous-menu métier */}
         <li className="menu-metier">
           <span>Métier</span>
@@ -46,6 +36,16 @@ export default function Menu() {
               <Link to="/div">Méthodes</Link>
             </li>
           </ul>
+        </li>
+
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+        <li>
+          <Link to="/cv">CV</Link>
+        </li>
+        <li>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
       </ul>
     </nav>
