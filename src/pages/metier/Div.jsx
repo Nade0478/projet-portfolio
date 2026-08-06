@@ -36,7 +36,7 @@ export default function Div() {
 
       <h1 className="page-title">Développement Web</h1>
 
-      <SkillsTable title="Compétences & Projets" sections={sections} />
+      <SkillsTable title="Compétences et Projets" sections={sections} />
 
       {/* <Footer /> */}
     </div>

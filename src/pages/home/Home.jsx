@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/Home.css";
+import Presentation from "../../component/home/Presentation";
 
 export default function Home() {
   return (
@@ -11,19 +12,8 @@ export default function Home() {
         className="portfolio-photo"
       />
 
-      <h1 className="portfolio-name">Nadège Gautier</h1>
-
-      <h2 className="portfolio-job">
-        Développeuse Web • Testeuse Logicielle • Future Cheffe de Projet
-      </h2>
-
-      <p className="portfolio-presentation">
-        Passionnée par le développement web, les tests logiciels et la gestion
-        de projet, j’accompagne les entreprises dans la création de solutions
-        fiables, modernes et sécurisées. En reconversion professionnelle, je
-        combine rigueur, créativité et sens de l’organisation pour mener à bien
-        chaque mission.
-      </p>
+      {/* --- REMPLACEMENT PAR TON COMPONENT --- */}
+      <Presentation />
 
       <div className="portfolio-grid">
         <Link to="/dev" className="portfolio-card1">
@@ -33,7 +23,7 @@ export default function Home() {
 
         <Link to="/tests" className="portfolio-card3">
           <h3>Testeur ISTQB</h3>
-          <p>Tests fonctionnelles et automatisations</p>
+          <p>Tests fonctionnels et automatisations</p>
         </Link>
 
         <Link to="/projet" className="portfolio-card4">
@@ -48,20 +38,17 @@ export default function Home() {
 
         <Link to="/adm" className="portfolio-card6">
           <h3>Assistante Administrative</h3>
-          <p>
-            Pack Office, Gestion d'agenda, Standard, traitement de dossier
-            administratif
-          </p>
+          <p>Pack Office, gestion d'agenda, traitement de dossiers</p>
         </Link>
 
         <Link to="/cons" className="portfolio-card7">
           <h3>Conseillère clientèle à distance</h3>
-          <p>Gestion de demande client, prise de rendez-vous , SAV</p>
+          <p>Gestion des demandes, prise de rendez-vous, SAV</p>
         </Link>
 
         <Link to="/div" className="portfolio-card2">
-          <h3>Diverses</h3>
-          <p>Anglais, </p>
+          <h3>Divers</h3>
+          <p>Anglais, autres compétences</p>
         </Link>
       </div>
     </div>

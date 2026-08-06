@@ -24,8 +24,9 @@ export default function Uix() {
           name: "Portfolio React",
           description: "Site personnel moderne en React.",
           image: "/assets/captures/portfolio.png",
-          link: "https://github.com/ton-projet",
-        },
+          link: "https://www.figma.com/make/O2x2Wuv91Z7gwX64UMmhbp/Cr%C3%A9er-un-persona-parent-d%C3%A9bord%C3%A9?p=f&t=dKxXfQo2dXN1MdKw-0",
+          link: "https://www.figma.com/design/GusJr7bqiMlMZOxqi1BFtH/Untitled?node-id=1-4454&t=k0k5J2HwLSkvfJZt-0",
+        }
       ],
     },
   ];

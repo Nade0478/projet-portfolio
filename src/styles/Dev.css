@@ -42,3 +42,45 @@
 .dev-card li {
   margin-bottom: 6px;
 }
+
+/* --- PRESENTATION --- */
+
+.Presentation-container {
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.Presentation-title {
+  font-size: 4rem;      
+  font-weight: 700;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+
+.Presentation-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 22px;
+
+  /* Compatibilité Safari */
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+
+  color: #000000;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'verdana', Times, serif;
+}
+
+.Presentation-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.Presentation-card h3 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

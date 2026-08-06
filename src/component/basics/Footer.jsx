@@ -28,8 +28,17 @@ export default function Footer() {
         </li>
 
         <li>
+          <a
+            href="https://www.figma.com/design/GusJr7bqiMlMZOxqi1BFtH/Untitled?node-id=0-1&p=f&t=b8kSZ8u1xbamOdBp-0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Figma
+          </a>
+        </li>
+
+        <li>
           <a href="/contact">Contact</a>
-          
         </li>
       </ul>
     </footer>

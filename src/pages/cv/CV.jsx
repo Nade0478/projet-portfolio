@@ -1,32 +1,26 @@
 import React from "react";
 import CarrouselCV from "../../component/CarrouselCV";
-
-// Import des PDF
-// import CvDev from "../../assets/cv/cv-developpeur-cda.pdf";
-// import CvTest from "../../assets/cv/cv-testeur-istqb.pdf";
-import CvChefProjet from "../../assets/cv/cv-chef-projet.pdf";
-// import CvArch from "../../assets/cv/cv-architecture-application.pdf";
-
 import "../../styles/Pages.css";
 
-export default function CV() {
-  const cvs = [
-    // { name: "CV Développeuse / CDA", file: CvDev },
-    // { name: "CV Testeur ISTQB", file: CvTest },
-    { name: "CV Cheffe de Projet IA", file: CvChefProjet },
-    // { name: "CV Architecture & Application", file: CvArch },
-  ];
+// Fonction pour importer automatiquement tous les fichiers PDF du dossier
+function importAll(r) {
+  return r.keys().map((key) => ({
+    name: key.replace("./", "").replace(".pdf", ""),
+    file: r(key),
+  }));
+}
 
+// On récupère tous les CV du dossier assets/cv
+const cvs = importAll(require.context("../../assets/cv", false, /\.pdf$/));
+
+export default function CV() {
   return (
     <div className="page-container">
-
-
       <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
         Mes CV Professionnels
       </h1>
 
       <CarrouselCV cvs={cvs} />
-
     </div>
   );
 }

@@ -66,6 +66,18 @@
   transition: 0.3s;
 }
 
+.portfolio-card2 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #6c697ce6;
+  text-decoration: none;
+  color: #000000;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+
+  grid-column: 1 / -1;
+}
+
 .portfolio-card3 {
   padding: 20px;
   border-radius: 10px;
@@ -178,19 +190,4 @@
   width: 200px;
   height: 200px;
   object-fit: contain;
-}
-
-.portfolio-card2 {
-  padding: 50px;
-  border-radius: 200px;
-  background-color: #4e4334;
-  text-decoration: none;
-  color: #fbf2f2;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-  transition: 0.3s;
-  position: relative;
-}
-
-.portfolio-card2 {
-  grid-column: 2; /* place la carte dans la colonne centrale */
 }
