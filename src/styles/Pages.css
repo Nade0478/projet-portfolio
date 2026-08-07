@@ -63,9 +63,28 @@ body {
 
 .cv-buttons button:hover,
 .open-pdf:hover {
-  background: #005fcc;
+  background: #260060;
 }
 
 .open-pdf {
   text-decoration: none;
+}
+
+ /* ==========================
+ CAPTURES
+ ==========================*/
+
+.btn-capture {
+  background-color: #260060;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn-capture:hover {
+  background-color: #001f6d;
 }

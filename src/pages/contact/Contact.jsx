@@ -1,63 +1,34 @@
-import React, { useState } from "react";
-// import Footer from "../../component/basics/Footer";
+import React from "react";
 import "../../styles/Contact.css";
 
 export default function Contact() {
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert("Message envoyé !");
-  };
-
   return (
-    <>
-      <div className="contact-container">
-        <h1 className="contact-title">Contactez-moi</h1>
+    <div className="contact-container">
+      <h1 className="contact-title">Contact Professionnel</h1>
 
-        <form onSubmit={handleSubmit} className="contact-form">
-          <label className="contact-label">Nom</label>
-          <input
-            type="text"
-            name="name"
-            value={form.name}
-            onChange={handleChange}
-            className="contact-input"
-            required
-          />
+      <div className="contact-card">
+        <h2 className="contact-name">Mme GAUTIER Nadège</h2>
 
-          <label className="contact-label">Email</label>
-          <input
-            type="email"
-            name="email"
-            value={form.email}
-            onChange={handleChange}
-            className="contact-input"
-            required
-          />
+        <p>
+          <strong>Localisation :</strong> Sarthe (72)
+        </p>
+        <p>
+          <strong>Mobilité :</strong> Télétravail ou départements limitrophes
+        </p>
 
-          <label className="contact-label">Message</label>
-          <textarea
-            name="message"
-            value={form.message}
-            onChange={handleChange}
-            className="contact-textarea"
-            required
-          />
+        <p>
+          <strong>Email :</strong>{" "}
+          <a href="mailto:nade04ge@gmail.com">nade04ge@gmail.com</a>
+        </p>
 
-          <button type="submit" className="contact-button">
-            Envoyer
-          </button>
-        </form>
+        <p>
+          <strong>Téléphone :</strong> 06.65.31.48.42
+        </p>
+
+        <p>
+          <strong>Permis :</strong> Permis B + véhicule
+        </p>
       </div>
-    </>
+    </div>
   );
 }
