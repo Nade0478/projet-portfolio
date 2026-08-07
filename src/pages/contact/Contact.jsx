@@ -28,6 +28,11 @@ export default function Contact() {
         <p>
           <strong>Permis :</strong> Permis B + véhicule
         </p>
+
+        <p>
+          <strong>Linkdin :</strong>{" "}
+          https://www.linkedin.com/in/nadège-gautier-8b0b3b301
+        </p>
       </div>
     </div>
   );
