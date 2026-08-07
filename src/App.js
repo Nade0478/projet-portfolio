@@ -18,10 +18,16 @@ import Div from "./pages/metier/Div";
 import CaptureDeploiement from "./pages/portfolio/CarouselDeploiement";
 import CaptureConception from "./pages/portfolio/CarouselConception";
 import CaptureTests from "./pages/portfolio/CarouselTests";
+import CaptureAutres from "./pages/portfolio/CarouselAutres";
+import CaptureProjects from "./component/CarrouselProjects";
+import CaptureSecurity from "./component/CarrouselSecurity";
+
 
 import Menu from "./component/basics/Menu";
 import Footer from "./component/basics/Footer";
 import "./styles/Pages.css";
+
+
 
 function App() {
   return (
@@ -46,6 +52,9 @@ function App() {
         <Route path="/captures-conception" element={<CaptureConception />} />
         <Route path="/captures-deploiement" element={<CaptureDeploiement />} />
         <Route path="/captures-tests" element={<CaptureTests />} />
+        <Route path="/captures-projects" element={<CaptureProjects />} />
+        <Route path="/captures-security" element={<CaptureSecurity />} />
+        <Route path="/captures-autres" element={<CaptureAutres />} />
       </Routes>
 
       <Footer />

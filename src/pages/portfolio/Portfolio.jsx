@@ -33,12 +33,10 @@ export default function Cons() {
       {/* --- Boutons pour accéder aux carrousels --- */}
       <div
         className="capture-buttons"
-        style={{ marginTop: "30px", textAlign: "center" }}
+        style={{ marginTop: "80px", textAlign: "center" }}
       >
         <Link to="/captures-conception">
-          <button className="btn-capture">
-            Voir captures de conception
-          </button>
+          <button className="btn-capture">Voir captures de conception</button>
         </Link>
 
         <Link to="/captures-deploiement">
@@ -53,6 +51,23 @@ export default function Cons() {
           </button>
         </Link>
 
+        <Link to="/captures-security">
+          <button className="btn-capture" style={{ marginLeft: "15px" }}>
+            Voir captures cybersecurité
+          </button>
+        </Link>
+
+        <Link to="/captures-project">
+          <button className="btn-capture" style={{ marginLeft: "15px" }}>
+            Voir captures de Projet
+          </button>
+        </Link>
+
+        <Link to="/captures-autres">
+          <button className="btn-capture" style={{ marginLeft: "15px" }}>
+            Voir captures de autres
+          </button>
+        </Link>
       </div>
     </div>
   );
