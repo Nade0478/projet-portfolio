@@ -10,7 +10,7 @@ export default function Div() {
       items: ["JavaScript", "PHP", "SQL", "HTML", "CSS"],
     },
     {
-      label: "Frameworks & Outils",
+      label: "Frameworks et Outils",
       items: ["React", "Laravel", "Node.js", "MySQL", "GitHub"],
     },
     {
@@ -21,9 +21,6 @@ export default function Div() {
       label: "Projets",
       projects: [
         {
-          name: "Portfolio React",
-          description: "Site personnel moderne en React.",
-          image: "/assets/captures/portfolio.png",
           link: "https://github.com/ton-projet",
         },
       ],

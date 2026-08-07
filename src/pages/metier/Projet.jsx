@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsTable from "../../component/SkillsTable";
+import SkillsTable3 from "../../component/SkillsTable3";
 
 export default function Projet() {
   const sections = [
@@ -76,9 +76,6 @@ export default function Projet() {
       label: "Projets",
       projects: [
         {
-          name: "Portfolio React",
-          description: "Site personnel moderne en React.",
-          image: "/assets/captures/portfolio.png",
           link: "https://github.com/Nade0478",
         },
       ],
@@ -126,7 +123,7 @@ export default function Projet() {
       </div>
 
       {/* TABLEAU DES COMPÉTENCES */}
-      <SkillsTable title="Compétences et Projets" sections={sections} />
+      <SkillsTable3 title="Compétences et Projets" sections={sections} />
     </div>
   );
 }

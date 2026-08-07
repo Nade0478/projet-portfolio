@@ -10,7 +10,7 @@ export default function Uix() {
       items: ["JavaScript", "PHP", "SQL", "HTML", "CSS"],
     },
     {
-      label: "Frameworks & Outils",
+      label: "Frameworks et Outils",
       items: ["Figma", "Laravel", "Node.js", "MySQL", "GitHub"],
     },
     {
@@ -21,9 +21,6 @@ export default function Uix() {
       label: "Projets",
       projects: [
         {
-          name: "Portfolio React",
-          description: "Site personnel moderne en React.",
-          image: "/assets/captures/portfolio.png",
           link: "https://www.figma.com/make/O2x2Wuv91Z7gwX64UMmhbp/Cr%C3%A9er-un-persona-parent-d%C3%A9bord%C3%A9?p=f&t=dKxXfQo2dXN1MdKw-0",
           link: "https://www.figma.com/design/GusJr7bqiMlMZOxqi1BFtH/Untitled?node-id=1-4454&t=k0k5J2HwLSkvfJZt-0",
         }
@@ -37,7 +34,7 @@ export default function Uix() {
 
       <h1 className="page-title">Développement Web</h1>
 
-      <SkillsTable title="Compétences & Projets" sections={sections} />
+      <SkillsTable title="Compétences et Projets" sections={sections} />
 
       {/* <Footer /> */}
     </div>

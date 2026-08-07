@@ -10,7 +10,7 @@ export default function Cons() {
       items: ["JavaScript", "PHP", "SQL", "HTML", "CSS"],
     },
     {
-      label: "Frameworks & Outils",
+      label: "Frameworks et Outils",
       items: ["React", "Laravel", "Node.js", "MySQL", "GitHub"],
     },
     {
@@ -21,9 +21,6 @@ export default function Cons() {
       label: "Projets",
       projects: [
         {
-          name: "Portfolio React",
-          description: "Site personnel moderne en React.",
-          image: "/assets/captures/portfolio.png",
           link: "https://github.com/ton-projet",
         },
       ],
@@ -36,7 +33,7 @@ export default function Cons() {
 
       <h1 className="page-title">Développement Web</h1>
 
-      <SkillsTable title="Compétences & Projets" sections={sections} />
+      <SkillsTable title="Compétences et Projets" sections={sections} />
 {/* 
       <Footer /> */}
     </div>

@@ -10,14 +10,14 @@ export default function Cons() {
         {
           name: "Application Laravel",
           description: "CRUD complet avec authentification.",
-          image: "/assets/captures/laravel-app.png",
+          // image: "/assets/captures/laravel-app.png",
           video: "/assets/videos/laravel-demo.mp4",
           link: "https://github.com/Nade0478",
         },
         {
           name: "Projet React",
           description: "Interface moderne en React.",
-          image: "/assets/captures/react-app.png",
+          // image: "/assets/captures/react-app.png",
           link: "https://github.com/Nade0478",
         },
       ],
@@ -28,7 +28,7 @@ export default function Cons() {
     <div className="page-container">
       <h1 className="page-title">Développement Web</h1>
 
-      <SkillsTable title="Compétences & Projets" sections={sections} />
+      <SkillsTable title="Compétences et Projets" sections={sections} />
 
       {/* --- Boutons pour accéder aux carrousels --- */}
       <div

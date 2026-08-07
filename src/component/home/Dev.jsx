@@ -4,21 +4,21 @@ import "../styles/Dev.css";
 export default function Dev() {
   return (
     <div className="dev-container">
-      <h1 className="dev-title">Compétences Développement & Tech</h1>
+      <h1 className="dev-title">Compétences Développement et Tech</h1>
 
       <div className="dev-grid">
         {/* HARD SKILLS */}
         <div className="dev-card">
           <h2>Hard Skills</h2>
 
-          <h3>Intelligence Artificielle & Data (bases)</h3>
+          <h3>Intelligence Artificielle et Data (bases)</h3>
           <ul>
             <li>Modélisation prédictive (notions)</li>
             <li>Documentation des processus IA</li>
             <li>Analyse de données (bases)</li>
           </ul>
 
-          <h3>Développement & No-Code</h3>
+          <h3>Développement et No-Code</h3>
           <ul>
             <li>HTML, CSS, JavaScript, PHP, Laravel, Symfony, React</li>
             <li>CI/CD avec Docker</li>
@@ -27,7 +27,7 @@ export default function Dev() {
             <li>Outils no-code (notions)</li>
           </ul>
 
-          <h3>Tests & Qualité</h3>
+          <h3>Tests et Qualité</h3>
           <ul>
             <li>Méthodologie ISTQB</li>
             <li>Rédaction de cas de tests</li>
@@ -47,7 +47,7 @@ export default function Dev() {
             <li>Méthodes agiles</li>
             <li>Analyse des besoins utilisateurs</li>
             <li>Organisation, priorisation</li>
-            <li>Suivi de projet & reporting</li>
+            <li>Suivi de projet et reporting</li>
           </ul>
         </div>
 
@@ -56,11 +56,11 @@ export default function Dev() {
           <h2>Soft Skills</h2>
           <ul>
             <li>Communication claire</li>
-            <li>Rigueur & sens du détail</li>
-            <li>Créativité & innovation</li>
-            <li>Adaptabilité & curiosité</li>
+            <li>Rigueur et sens du détail</li>
+            <li>Créativité et innovation</li>
+            <li>Adaptabilité et curiosité</li>
             <li>Travail en équipe</li>
-            <li>Autonomie & responsabilités</li>
+            <li>Autonomie et responsabilités</li>
             <li>Apprentissage rapide</li>
             <li>Esprit analytique</li>
             <li>Empathie</li>
@@ -73,7 +73,7 @@ export default function Dev() {
         <div className="dev-card">
           <h2>Outils</h2>
 
-          <h3>Développement & Web</h3>
+          <h3>Développement et Web</h3>
           <ul>
             <li>Git, Github, VS Code</li>
             <li>Docker (CI/CD)</li>
@@ -82,7 +82,7 @@ export default function Dev() {
             <li>XAMPP, WAMP</li>
           </ul>
 
-          <h3>Tests & Qualité</h3>
+          <h3>Tests et Qualité</h3>
           <ul>
             <li>Jira, Trello</li>
             <li>Notion, Google Docs</li>
@@ -98,7 +98,7 @@ export default function Dev() {
             <li>Reporting</li>
           </ul>
 
-          <h3>IA & No-Code</h3>
+          <h3>IA et No-Code</h3>
           <ul>
             <li>Asana, Miro, Lucidchart</li>
             <li>Automatisation</li>

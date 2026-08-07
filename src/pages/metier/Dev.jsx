@@ -29,9 +29,6 @@ export default function Dev() {
       label: "Projets",
       projects: [
         {
-          name: "Portfolio React",
-          description: "Site personnel moderne en React.",
-          image: "/assets/captures/portfolio.png",
           link: "https://github.com/Nade0478/Ecoride-projet",
         },
       ],
@@ -72,7 +69,6 @@ export default function Dev() {
         {
           name: "Application Laravel",
           description: "Application CRUD complète avec authentification.",
-          image: "/assets/captures/portfolio.png",
           link: "https://github.com/Nade0478",
         },
       ],
