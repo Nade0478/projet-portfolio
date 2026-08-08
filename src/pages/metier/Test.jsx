@@ -1,7 +1,7 @@
 import React from "react";
-import SkillsTable from "../../component/SkillsTable";
+import SkillsTable3 from "../../component/SkillsTable3";
 
-export default function Projet() {
+export default function Test() {
   const sections = [
     {
       label: "Fondamentaux des tests",
@@ -81,12 +81,10 @@ export default function Projet() {
 
   return (
     <div className="page-container">
-      {/* TITRE PRINCIPAL */}
       <h1 className="page-title">
         Certification ISTQB – Testeur Certifié Niveau Fondation
       </h1>
 
-      {/* SECTION INTRO CERTIFICAT */}
       <div className="certificate-intro">
         <h2>Certificat obtenu en 2024 – M2i Formation</h2>
 
@@ -102,7 +100,7 @@ export default function Projet() {
         <ul className="certificate-skills">
           <li>Maîtrise des 7 principes fondamentaux du test logiciel</li>
           <li>
-            Conception de cas de test (boîte noire, boîte blanche, expérience)
+            Conception de cas de test (boîte noire, boîte blanche, exploratoire)
           </li>
           <li>Analyse des risques produit et projet</li>
           <li>Planification des tests, critères d’entrée/sortie, métriques</li>
@@ -132,8 +130,7 @@ export default function Projet() {
         </p>
       </div>
 
-      {/* TABLEAU DES COMPÉTENCES */}
-      <SkillsTable title="Compétences ISTQB" sections={sections} />
+      <SkillsTable3 title="Compétences ISTQB" sections={sections} />
     </div>
   );
 }

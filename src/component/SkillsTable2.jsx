@@ -20,9 +20,9 @@ export default function SkillsTable2({ title, sections }) {
           )}
 
           {/* LISTE DES PROJETS */}
-          {section.projet && (
+          {section.projets && (
             <div className="project-grid">
-              {section.projet.map((projet, i) => (
+              {section.projets.map((projet, i) => (
                 <div key={i} className="projet-card">
                   <h4>{projet.name}</h4>
                   <p>{projet.description}</p>

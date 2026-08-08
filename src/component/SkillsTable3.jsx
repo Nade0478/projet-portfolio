@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/SkillsTable3.css";
 
-export default function SkillsTable2({ title, sections }) {
+export default function SkillsTable3({ title, sections }) {
   return (
     <div className="skills-table">
       <h2 className="skills-title">{title}</h2>
@@ -20,9 +20,9 @@ export default function SkillsTable2({ title, sections }) {
           )}
 
           {/* LISTE DES PROJETS */}
-          {section.projet && (
+          {section.projets && (
             <div className="projet-grid">
-              {section.projet.map((projet, i) => (
+              {section.projets.map((projet, i) => (
                 <div key={i} className="project-card">
                   <h4>{projet.name}</h4>
                   <p>{projet.description}</p>

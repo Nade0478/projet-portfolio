@@ -9,18 +9,14 @@ function importAll(r) {
 }
 
 const captures = importAll(
-  require.context(
-    "../../assets/capture-security",
-    false,
-    /\.(png|jpe?g|svg)$/
-  )
+  require.context("../../assets/capture-security", false, /\.(png|jpe?g|svg)$/)
 );
 
 export default function CaptureSecurity() {
   return (
     <div className="page-container">
       <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
-        Captures de Cybersécutité
+        Captures de Cybersécurité
       </h1>
 
       <CarouselCaptureSecurity captures={captures} />

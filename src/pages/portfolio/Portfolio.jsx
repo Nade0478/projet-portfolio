@@ -6,18 +6,16 @@ export default function Cons() {
   const sections = [
     {
       label: "Projets",
-      projects: [
+      projets: [
         {
           name: "Application Laravel",
           description: "CRUD complet avec authentification.",
-          // image: "/assets/captures/laravel-app.png",
           video: "/assets/videos/laravel-demo.mp4",
           link: "https://github.com/Nade0478",
         },
         {
           name: "Projet React",
           description: "Interface moderne en React.",
-          // image: "/assets/captures/react-app.png",
           link: "https://github.com/Nade0478",
         },
       ],
@@ -30,7 +28,6 @@ export default function Cons() {
 
       <SkillsTable title="Compétences et Projets" sections={sections} />
 
-      {/* --- Boutons pour accéder aux carousels --- */}
       <div
         className="capture-buttons"
         style={{ marginTop: "80px", textAlign: "center" }}
@@ -53,19 +50,19 @@ export default function Cons() {
 
         <Link to="/capture-security">
           <button className="btn-capture" style={{ marginLeft: "15px" }}>
-            Voir captures cybersecurité
+            Voir captures cybersécurité
           </button>
         </Link>
 
         <Link to="/capture-projet">
           <button className="btn-capture" style={{ marginLeft: "15px" }}>
-            Voir captures de Projet
+            Voir captures de projet
           </button>
         </Link>
 
         <Link to="/capture-autre">
           <button className="btn-capture" style={{ marginLeft: "15px" }}>
-            Voir captures de autres
+            Voir captures autres
           </button>
         </Link>
       </div>

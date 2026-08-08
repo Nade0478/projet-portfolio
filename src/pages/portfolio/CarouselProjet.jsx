@@ -9,11 +9,7 @@ function importAll(r) {
 }
 
 const captures = importAll(
-  require.context(
-    "../../assets/capture-projet",
-    false,
-    /\.(png|jpe?g|svg)$/
-  )
+  require.context("../../assets/capture-projet", false, /\.(png|jpe?g|svg)$/)
 );
 
 export default function CaptureProject() {

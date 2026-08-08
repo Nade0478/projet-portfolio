@@ -7,7 +7,7 @@ import Portfolio from "./pages/portfolio/Portfolio";
 
 // Pages métier
 import Dev from "./pages/metier/Dev";
-import Tests from "./pages/metier/Tests";
+import Tests from "./pages/metier/Test";
 import Projet from "./pages/metier/Projet";
 import Cyber from "./pages/metier/Cyber";
 import Adm from "./pages/metier/Adm";

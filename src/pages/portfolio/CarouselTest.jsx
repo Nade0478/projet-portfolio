@@ -1,5 +1,5 @@
 import React from "react";
-import CarouselCaptureTest from "./CarouselTest.jsx";
+import CarouselCaptureTest from "../../component/CarouselCaptureTest.jsx";
 
 function importAll(r) {
   return r.keys().map((key) => ({

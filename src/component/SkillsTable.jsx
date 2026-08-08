@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/SkillsTable.css"
+import "../styles/SkillsTable.css";
 
 export default function SkillsTable({ title, sections }) {
   return (
@@ -20,9 +20,9 @@ export default function SkillsTable({ title, sections }) {
           )}
 
           {/* Projets */}
-          {section.projet && (
-            <div className="projet-grid">
-              {section.projet.map((projet, i) => (
+          {section.projets && (
+            <div className="projets-grid">
+              {section.projets.map((projet, i) => (
                 <div key={i} className="projet-card">
                   {projet.image && (
                     <img
