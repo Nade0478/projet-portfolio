@@ -67,6 +67,10 @@ Liste simple
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: center;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .projet-card:hover {
@@ -77,7 +81,7 @@ Liste simple
 /* ================================
    Image projet
 ================================ */
-.project-image {
+.projet-image {
     width: 100%;
     height: 160px;
     object-fit: cover;
@@ -138,33 +142,3 @@ Liste simple
         height: 140px;
     }
 }
-
-/* .certificate-intro {
-  background: #fff;
-  padding: 30px;
-  margin: 30px auto;
-  border-radius: 12px;
-  max-width: 900px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-}
-
-.certificate-intro h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #c0790f;
-}
-
-.certificate-description,
-.certificate-summary {
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
-
-.certificate-skills {
-  margin-bottom: 20px;
-  padding-left: 20px;
-}
-
-.certificate-skills li {
-  margin-bottom: 8px;
-} */

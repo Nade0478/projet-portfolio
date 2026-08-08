@@ -48,12 +48,12 @@ function App() {
         <Route path="/div" element={<Div />} />
 
         {/*  Ajout des routes carousels */}
-        <Route path="/captures-conception" element={<CaptureConception />} />
-        <Route path="/captures-deploiement" element={<CaptureDeploiement />} />
-        <Route path="/captures-test" element={<CaptureTest />} />
-        <Route path="/captures-projet" element={<CaptureProjet />} />
-        <Route path="/captures-security" element={<CaptureSecurity />} />
-        <Route path="/captures-autre" element={<CaptureAutre />} />
+        <Route path="/capture-conception" element={<CaptureConception />} />
+        <Route path="/capture-deploiement" element={<CaptureDeploiement />} />
+        <Route path="/capture-test" element={<CaptureTest />} />
+        <Route path="/capture-projet" element={<CaptureProjet />} />
+        <Route path="/capture-security" element={<CaptureSecurity />} />
+        <Route path="/capture-autre" element={<CaptureAutre />} />
       </Routes>
 
       <Footer />

@@ -20,6 +20,36 @@ export default function Cons() {
         },
       ],
     },
+
+    {
+      label: "Captures",
+      projets: [
+        {
+          name: "Captures de conception",
+          link: "/capture-conception",
+        },
+        {
+          name: "Captures de déploiement",
+          link: "/capture-deploiement",
+        },
+        {
+          name: "Captures des tests",
+          link: "/capture-test",
+        },
+        {
+          name: "Captures cybersécurité",
+          link: "/capture-security",
+        },
+        {
+          name: "Captures de projet",
+          link: "/capture-projet",
+        },
+        {
+          name: "Captures autres",
+          link: "/capture-autre",
+        },
+      ],
+    },
   ];
 
   return (
@@ -27,45 +57,6 @@ export default function Cons() {
       <h1 className="page-title">Développement Web</h1>
 
       <SkillsTable title="Compétences et Projets" sections={sections} />
-
-      <div
-        className="capture-buttons"
-        style={{ marginTop: "80px", textAlign: "center" }}
-      >
-        <Link to="/capture-conception">
-          <button className="btn-capture">Voir captures de conception</button>
-        </Link>
-
-        <Link to="/capture-deploiement">
-          <button className="btn-capture" style={{ marginLeft: "15px" }}>
-            Voir captures de déploiement
-          </button>
-        </Link>
-
-        <Link to="/capture-test">
-          <button className="btn-capture" style={{ marginLeft: "15px" }}>
-            Voir captures de tests
-          </button>
-        </Link>
-
-        <Link to="/capture-security">
-          <button className="btn-capture" style={{ marginLeft: "15px" }}>
-            Voir captures cybersécurité
-          </button>
-        </Link>
-
-        <Link to="/capture-projet">
-          <button className="btn-capture" style={{ marginLeft: "15px" }}>
-            Voir captures de projet
-          </button>
-        </Link>
-
-        <Link to="/capture-autre">
-          <button className="btn-capture" style={{ marginLeft: "15px" }}>
-            Voir captures autres
-          </button>
-        </Link>
-      </div>
     </div>
   );
 }
