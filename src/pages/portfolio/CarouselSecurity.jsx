@@ -1,5 +1,5 @@
 import React from "react";
-import CarrouselCaptureSecurity from "../../component/CarouselCaptureSecurity.jsx";
+import CarouselCaptureSecurity from "../../component/CarouselCaptureSecurity.jsx";
 
 function importAll(r) {
   return r.keys().map((key) => ({
@@ -20,10 +20,10 @@ export default function CaptureSecurity() {
   return (
     <div className="page-container">
       <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
-        Captures de Conception
+        Captures de Cybersécutité
       </h1>
 
-      <CarrouselCaptureSecurity captures={captures} />
+      <CarouselCaptureSecurity captures={captures} />
     </div>
   );
 }

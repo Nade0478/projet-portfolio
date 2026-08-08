@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function CarrouselCaptureSecurity({ captures }) {
+export default function CarouselCaptureAutre({ captures }) {
   const [index, setIndex] = useState(0);
 
   const prev = () => {

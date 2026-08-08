@@ -30,40 +30,40 @@ export default function Cons() {
 
       <SkillsTable title="Compétences et Projets" sections={sections} />
 
-      {/* --- Boutons pour accéder aux carrousels --- */}
+      {/* --- Boutons pour accéder aux carousels --- */}
       <div
         className="capture-buttons"
         style={{ marginTop: "80px", textAlign: "center" }}
       >
-        <Link to="/captures-conception">
+        <Link to="/capture-conception">
           <button className="btn-capture">Voir captures de conception</button>
         </Link>
 
-        <Link to="/captures-deploiement">
+        <Link to="/capture-deploiement">
           <button className="btn-capture" style={{ marginLeft: "15px" }}>
             Voir captures de déploiement
           </button>
         </Link>
 
-        <Link to="/captures-tests">
+        <Link to="/capture-test">
           <button className="btn-capture" style={{ marginLeft: "15px" }}>
             Voir captures de tests
           </button>
         </Link>
 
-        <Link to="/captures-security">
+        <Link to="/capture-security">
           <button className="btn-capture" style={{ marginLeft: "15px" }}>
             Voir captures cybersecurité
           </button>
         </Link>
 
-        <Link to="/captures-project">
+        <Link to="/capture-projet">
           <button className="btn-capture" style={{ marginLeft: "15px" }}>
             Voir captures de Projet
           </button>
         </Link>
 
-        <Link to="/captures-autres">
+        <Link to="/capture-autre">
           <button className="btn-capture" style={{ marginLeft: "15px" }}>
             Voir captures de autres
           </button>

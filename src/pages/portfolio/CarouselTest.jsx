@@ -1,5 +1,5 @@
 import React from "react";
-import CarrouselCaptureTests from "./CarouselTests.jsx";
+import CarouselCaptureTest from "./CarouselTest.jsx";
 
 function importAll(r) {
   return r.keys().map((key) => ({
@@ -9,17 +9,17 @@ function importAll(r) {
 }
 
 const captures = importAll(
-  require.context("../../assets/capture-tests", false, /\.(png|jpe?g|svg)$/)
+  require.context("../../assets/capture-test", false, /\.(png|jpe?g|svg)$/)
 );
 
-export default function CaptureTests() {
+export default function CaptureTest() {
   return (
     <div className="page-container">
       <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
         Captures de Tests
       </h1>
 
-      <CarrouselCaptureTests captures={captures} />
+      <CarouselCaptureTest captures={captures} />
     </div>
   );
 }

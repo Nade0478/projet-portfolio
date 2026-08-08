@@ -20,24 +20,24 @@ export default function SkillsTable({ title, sections }) {
           )}
 
           {/* Projets */}
-          {section.projects && (
-            <div className="projects-grid">
-              {section.projects.map((project, i) => (
-                <div key={i} className="project-card">
-                  {project.image && (
+          {section.projet && (
+            <div className="projet-grid">
+              {section.projet.map((projet, i) => (
+                <div key={i} className="projet-card">
+                  {projet.image && (
                     <img
-                      src={project.image}
-                      alt={project.name}
-                      className="project-image"
+                      src={projet.image}
+                      alt={projet.name}
+                      className="projet-image"
                     />
                   )}
 
-                  <h4>{project.name}</h4>
-                  <p>{project.description}</p>
+                  <h4>{projet.name}</h4>
+                  <p>{projet.description}</p>
 
-                  {project.link && (
+                  {projet.link && (
                     <a
-                      href={project.link}
+                      href={projet.link}
                       target="_blank"
                       rel="noreferrer"
                       className="project-link"

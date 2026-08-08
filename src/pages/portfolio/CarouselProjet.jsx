@@ -1,5 +1,5 @@
 import React from "react";
-import CarrouselCaptureProject from "../../component/CarouselCaptureProject.jsx";
+import CarouselCaptureProjet from "../../component/CarouselCaptureProjet.jsx";
 
 function importAll(r) {
   return r.keys().map((key) => ({
@@ -10,7 +10,7 @@ function importAll(r) {
 
 const captures = importAll(
   require.context(
-    "../../assets/capture-project",
+    "../../assets/capture-projet",
     false,
     /\.(png|jpe?g|svg)$/
   )
@@ -23,7 +23,7 @@ export default function CaptureProject() {
         Captures de Projet
       </h1>
 
-      <CarrouselCaptureProject captures={captures} />
+      <CarouselCaptureProjet captures={captures} />
     </div>
   );
 }

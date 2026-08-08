@@ -1,41 +1,39 @@
 import React, { useState } from "react";
 
-export default function CarrouselCaptureTests({ captures }) {
+export default function CarouselCV({ cvs }) {
   const [index, setIndex] = useState(0);
 
   const prev = () => {
-    setIndex((index - 1 + captures.length) % captures.length);
+    setIndex((index - 1 + cvs.length) % cvs.length);
   };
 
   const next = () => {
-    setIndex((index + 1) % captures.length);
+    setIndex((index + 1) % cvs.length);
   };
 
   return (
     <div className="cv-carousel">
-      <h2>{captures[index].name}</h2>
+      <h2>{cvs[index].name}</h2>
 
       <div className="cv-viewer">
-        <img
-          src={captures[index].file}
-          alt={captures[index].name}
+        <embed
+          src={cvs[index].file}
+          type="application/pdf"
           width="100%"
-          style={{ maxHeight: "500px", objectFit: "contain" }}
+          height="500px"
         />
       </div>
 
       <div className="cv-buttons">
         <button onClick={prev}>◀ Précédent</button>
-
         <a
-          href={captures[index].file}
+          href={cvs[index].file}
           target="_blank"
           rel="noopener noreferrer"
           className="open-pdf"
         >
-          Ouvrir l’image
+          Ouvrir le PDF
         </a>
-
         <button onClick={next}>Suivant ▶</button>
       </div>
     </div>

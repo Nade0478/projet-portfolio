@@ -14,14 +14,13 @@ import Adm from "./pages/metier/Adm";
 import Cons from "./pages/metier/Cons";
 import Div from "./pages/metier/Div";
 
-// Pages carrousels
+// Pages carousels
 import CaptureDeploiement from "./pages/portfolio/CarouselDeploiement";
 import CaptureConception from "./pages/portfolio/CarouselConception";
-import CaptureTests from "./pages/portfolio/CarouselTests";
-import CaptureAutres from "./pages/portfolio/CarouselAutres";
-import CaptureProjects from "./component/CarrouselProjects";
-import CaptureSecurity from "./component/CarrouselSecurity";
-
+import CaptureTest from "./pages/portfolio/CarouselTest";
+import CaptureAutre from "./pages/portfolio/CarouselAutre";
+import CaptureProjet from "./pages/portfolio/CarouselProjet"; 
+import CaptureSecurity from "./pages/portfolio/CarouselSecurity";
 
 import Menu from "./component/basics/Menu";
 import Footer from "./component/basics/Footer";
@@ -48,13 +47,13 @@ function App() {
         <Route path="/cons" element={<Cons />} />
         <Route path="/div" element={<Div />} />
 
-        {/*  Ajout des routes carrousels */}
+        {/*  Ajout des routes carousels */}
         <Route path="/captures-conception" element={<CaptureConception />} />
         <Route path="/captures-deploiement" element={<CaptureDeploiement />} />
-        <Route path="/captures-tests" element={<CaptureTests />} />
-        <Route path="/captures-projects" element={<CaptureProjects />} />
+        <Route path="/captures-test" element={<CaptureTest />} />
+        <Route path="/captures-projet" element={<CaptureProjet />} />
         <Route path="/captures-security" element={<CaptureSecurity />} />
-        <Route path="/captures-autres" element={<CaptureAutres />} />
+        <Route path="/captures-autre" element={<CaptureAutre />} />
       </Routes>
 
       <Footer />

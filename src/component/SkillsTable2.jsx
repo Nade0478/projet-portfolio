@@ -20,38 +20,38 @@ export default function SkillsTable2({ title, sections }) {
           )}
 
           {/* LISTE DES PROJETS */}
-          {section.projects && (
-            <div className="projects-grid">
-              {section.projects.map((project, i) => (
-                <div key={i} className="project-card">
-                  <h4>{project.name}</h4>
-                  <p>{project.description}</p>
+          {section.projet && (
+            <div className="project-grid">
+              {section.projet.map((projet, i) => (
+                <div key={i} className="projet-card">
+                  <h4>{projet.name}</h4>
+                  <p>{projet.description}</p>
 
                   {/* IMAGE */}
-                  {project.image && (
+                  {projet.image && (
                     <img
-                      src={project.image}
-                      alt={project.name}
-                      className="project-image"
+                      src={projet.image}
+                      alt={projet.name}
+                      className="projet-image"
                     />
                   )}
 
                   {/* VIDEO */}
-                  {project.video && (
+                  {projet.video && (
                     <video
-                      src={project.video}
+                      src={projet.video}
                       controls
-                      className="project-video"
+                      className="projet-video"
                     />
                   )}
 
                   {/* LIEN */}
-                  {project.link && (
+                  {projet.link && (
                     <a
-                      href={project.link}
+                      href={projet.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="project-link"
+                      className="projet-link"
                     >
                       Voir le projet
                     </a>

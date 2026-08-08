@@ -1,5 +1,5 @@
 import React from "react";
-import CarrouselCV from "../../component/CarrouselCV";
+import CarouselCV from "../../component/CarouselCV";
 import "../../styles/Pages.css";
 
 // Fonction pour importer automatiquement tous les fichiers PDF du dossier
@@ -20,7 +20,7 @@ export default function CV() {
         Mes CV Professionnels
       </h1>
 
-      <CarrouselCV cvs={cvs} />
+      <CarouselCV cvs={cvs} />
     </div>
   );
 }

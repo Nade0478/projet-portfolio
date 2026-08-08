@@ -1,5 +1,5 @@
 import React from "react";
-import CarrouselCaptureAutres from "../../component/CarouselCaptureAutres.jsx";
+import CarouselCaptureAutre from "../../component/CarouselCaptureAutre";
 
 function importAll(r) {
   return r.keys().map((key) => ({
@@ -10,20 +10,20 @@ function importAll(r) {
 
 const captures = importAll(
   require.context(
-    "../../assets/capture-autres",
+    "../../assets/capture-autre",
     false,
     /\.(png|jpe?g|svg)$/
   )
 );
 
-export default function CaptureAutres() {
+export default function CaptureAutre() {
   return (
     <div className="page-container">
       <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
         Captures de Autres
       </h1>
 
-      <CarrouselCaptureAutres captures={captures} />
+      <CarouselCaptureAutre captures={captures} />
     </div>
   );
 }

@@ -50,7 +50,7 @@ Liste simple
 /* ================================
    Grille des projets
 ================================ */
-.projects-grid {
+.projet-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 20px;
@@ -60,7 +60,7 @@ Liste simple
 /* ================================
    Carte projet
 ================================ */
-.project-card {
+.projet-card {
     background: #ffffff;
     border-radius: 10px;
     padding: 15px;
@@ -69,7 +69,7 @@ Liste simple
     text-align: center;
 }
 
-.project-card:hover {
+.projet-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
@@ -88,13 +88,13 @@ Liste simple
 /* ================================
    Texte projet
 ================================ */
-.project-card h4 {
+.projet-card h4 {
     font-size: 1.2rem;
     margin-bottom: 8px;
     color: #222;
 }
 
-.project-card p {
+.projet-card p {
     font-size: 0.95rem;
     color: #555;
     margin-bottom: 12px;
@@ -103,7 +103,7 @@ Liste simple
 /* ================================
    Lien projet
 ================================ */
-.project-link {
+.projet-link {
     display: inline-block;
     padding: 8px 14px;
     background: #0077ff;
@@ -114,7 +114,7 @@ Liste simple
     transition: background 0.2s ease;
 }
 
-.project-link:hover {
+.projet-link:hover {
     background: #005fcc;
 }
 
@@ -130,11 +130,11 @@ Liste simple
         font-size: 1.2rem;
     }
 
-    .project-card {
+    .projet-card {
         padding: 12px;
     }
 
-    .project-image {
+    .projet-image {
         height: 140px;
     }
 }

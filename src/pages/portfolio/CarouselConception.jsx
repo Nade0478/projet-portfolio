@@ -1,5 +1,5 @@
 import React from "react";
-import CarrouselCaptureConception from "../../component/CarouselCaptureConception.jsx";
+import CarouselCaptureConception from "../../component/CarouselCaptureConception.jsx";
 
 function importAll(r) {
   return r.keys().map((key) => ({
@@ -23,7 +23,7 @@ export default function CaptureConception() {
         Captures de Conception
       </h1>
 
-      <CarrouselCaptureConception captures={captures} />
+      <CarouselCaptureConception captures={captures} />
     </div>
   );
 }

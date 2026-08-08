@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function CarrouselCaptureProjects({ captures }) {
+export default function CarouselCaptureTest({ captures }) {
   const [index, setIndex] = useState(0);
 
   const prev = () => {
@@ -31,8 +31,9 @@ export default function CarrouselCaptureProjects({ captures }) {
           href={captures[index].file}
           target="_blank"
           rel="noopener noreferrer"
+          className="open-pdf"
         >
-          Ouvrir Capture d’écran
+          Ouvrir l’image
         </a>
 
         <button onClick={next}>Suivant ▶</button>
