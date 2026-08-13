@@ -1,54 +1,44 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import "../../styles/Menu.css";
+import "./Menu.css";
 
 export default function Menu() {
   return (
     <nav className="menu">
-      {/* Liens principaux */}
       <ul className="menu-main">
         <li>
           <Link to="/">Accueil</Link>
         </li>
-        {/* Sous-menu métier */}
+
         <li className="menu-metier">
           <span>Métier</span>
 
           <ul className="submenu">
             <li>
-              <Link to="/dev">Développement</Link>
+              <Link to="/dev">Développement Web</Link>
             </li>
             <li>
-              <Link to="/tests">Tests</Link>
-            </li>
-            <li>
-              <Link to="/projet">Gestion de Projet</Link>
+              <Link to="/test">Test Logiciel</Link>
             </li>
             <li>
               <Link to="/cyber">Cybersécurité</Link>
             </li>
             <li>
-              <Link to="/adm">Administration</Link>
-            </li>
-            <li>
-              <Link to="/cons">Conseil Client</Link>
-            </li>
-            <li>
-              <Link to="/div">Méthodes</Link>
-            </li>
-            <li>
-              <Link to="/uix">Conception</Link>
+              <Link to="/gestion">Gestion de projet</Link>
             </li>
           </ul>
         </li>
 
         <li>
+          <Link to="/portfolio">Portfolio</Link>
+        </li>
+
+        <li>
           <Link to="/contact">Contact</Link>
         </li>
+
         <li>
           <Link to="/cv">CV</Link>
-        </li>
-        <li>
-          <Link to="/portfolio">Portfolio</Link>
         </li>
       </ul>
     </nav>

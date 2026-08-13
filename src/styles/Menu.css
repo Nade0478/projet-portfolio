@@ -5,11 +5,10 @@
   padding: 0;
 }
 
+/* NAVBAR TOUJOURS DEVANT */
 nav.menu {
   background: #333;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-
-  /* --- Correction : menu toujours au-dessus --- */
   position: relative;
   z-index: 9999;
 }
@@ -50,13 +49,12 @@ nav.menu {
   border: 1px solid #ccc;
   min-width: 220px;
 
-  /* caché par défaut */
   opacity: 0;
   visibility: hidden;
   transform: translateY(5px);
   transition: all 0.2s ease;
 
-  /* --- Correction : dropdown toujours devant --- */
+  /* DROPDOWN TOUJOURS DEVANT */
   z-index: 99999;
   overflow: visible;
 }
@@ -83,16 +81,7 @@ nav.menu {
   background: #e0e0e0;
 }
 
-/* Optionnel : badge à droite (comme "12 Available") */
-.submenu li a span.badge {
-  background: #4b1483;
-  color: #fff;
-  padding: 4px 12px;
-  border-radius: 8px;
-  font-size: 4rem;
-}
-
-/* --- Correction : empêcher les sections de cacher le menu --- */
+/* Empêcher les sections de recouvrir le menu */
 section, main, div {
   position: relative;
   z-index: 0;
