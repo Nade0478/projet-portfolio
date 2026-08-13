@@ -1,96 +1,206 @@
 import React from "react";
-import SkillsTable from "../../component/SkillsTable";
 
-export default function Dev() {
-  // -----------------------------
-  // SECTIONS AFPA – VAE NIVEAU 5 (2016)
-  // -----------------------------
-  const sectionsAfpa = [
+export default function Cyber() {
+  // ================================
+  // FORMATION GOOGLE CYBERSÉCURITÉ (2026 – en cours)
+  // ================================
+  const courses = [
     {
-      label: "Compétences validées",
-      items: [
-        "Accueil et relation clientèle",
-        "Gestion administrative des dossiers",
-        "Traitement des demandes et réclamations",
-        "Organisation et planification des activités",
-        "Communication professionnelle orale et écrite",
-        "Respect des procédures et consignes",
+      title: "Les outils du métier : Linux et SQL",
+      hours: "23 heures",
+      learn: [
+        "Expliquer la relation entre systèmes d'exploitation, applications et matériel",
+        "Comparer interface graphique et interface en ligne de commande",
+        "Naviguer et gérer le système de fichiers avec Bash",
+        "Utiliser SQL pour extraire des informations d'une base de données",
+      ],
+      skills: [
+        "Commandes Linux",
+        "Linux",
+        "Systèmes d'exploitation",
+        "Bash",
+        "Gestion des fichiers",
+        "SQL",
+        "Systèmes de fichiers",
+        "Authentifications",
+        "Bases de données relationnelles",
+        "Autorisation (informatique)",
+        "Bases de données",
+        "Administration Linux",
+        "Shell Unix",
+        "Gestion des bases de données",
+        "Langages de requête",
+        "Comptes d'utilisateurs",
+        "Interface de ligne de commande",
       ],
     },
+
     {
-      label: "Compétences transversales",
-      items: [
-        "Gestion du stress",
-        "Adaptabilité aux situations variées",
-        "Travail en équipe",
-        "Autonomie et prise d’initiative",
-        "Rigueur et sens du service",
+      title: "Actifs, menaces et vulnérabilités",
+      hours: "19 heures",
+      learn: [
+        "Classer les actifs",
+        "Analyser une surface d'attaque pour identifier les risques",
+        "Identifier les menaces : ingénierie sociale, malwares, exploits",
+        "Résumer le processus de modélisation des menaces",
+      ],
+      skills: [
+        "Gestion de la vulnérabilité",
+        "Modélisation de la menace",
+        "Autorisation (informatique)",
+        "Gestion des menaces",
+        "Sécurité des données",
+        "Évaluations de la vulnérabilité",
+        "Cybersécurité",
+        "Contrôles de sécurité",
+        "Protection contre les logiciels malveillants",
+        "Détection des menaces",
+        "Cadre de gestion des risques",
+        "Risque cybernétique",
+        "Stratégie de cybersécurité",
+        "Cryptographie",
+        "Gestion des données",
+        "Authentifications",
+        "Sensibilisation à la sécurité",
+        "Renseignements sur les cybermenaces",
+        "Cadre ATT&CK de MITRE",
+        "Gestion des identités et des accès",
       ],
     },
+
     {
-      label: "Outils maîtrisés",
-      items: [
-        "Suite Office (Word, Excel, Outlook)",
-        "Téléphonie professionnelle",
-        "Messagerie interne",
-        "Outils de gestion administrative",
+      title: "Sonnez l’alarme : Détection et réaction",
+      hours: "17 heures",
+      learn: [
+        "Identifier les étapes pour contenir, éradiquer et récupérer un incident",
+        "Analyser les paquets réseau",
+        "Comprendre la syntaxe des signatures IDS/NIDS",
+        "Effectuer des requêtes SIEM pour enquêter sur un événement",
+      ],
+      skills: [
+        "Réponse aux incidents",
+        "Détection et prévention des intrusions",
+        "SIEM",
+        "Splunk",
+        "Analyse du réseau",
+        "Protocoles réseau",
+        "TCP/IP",
+        "Contrôle continu",
+        "Surveillance du réseau",
+        "Gestion des incidents de sécurité informatique",
+        "Surveillance des événements",
+        "Langages de requête",
+        "Gestion des incidents",
+        "Renseignements sur les cybermenaces",
+        "Détection des menaces",
+        "Sécurité des réseaux",
+        "Gestion des documents",
+        "Détection des points finaux et réponse (EDR)",
+        "Contrôles de sécurité",
       ],
     },
+
     {
-      label: "Domaines abordés",
-      items: [
-        "Techniques de communication",
-        "Relation client",
-        "Gestion documentaire",
-        "Organisation du travail",
-        "Qualité de service",
+      title: "Automatiser les tâches de cybersécurité avec Python",
+      hours: "25 heures",
+      learn: [
+        "Expliquer comment Python est utilisé en cybersécurité",
+        "Créer des fonctions Python définies par l'utilisateur",
+        "Utiliser des expressions régulières pour extraire des informations",
+        "S'entraîner à déboguer du code",
+      ],
+      skills: [
+        "Programmation Python",
+        "Fichier E/S",
+        "Débogage",
+        "Algorithmes",
+        "Principes de programmation",
+        "Cybersécurité",
+        "Automatisation",
+        "Programmation informatique",
+        "Gestion des fichiers",
+        "Automatisation IT",
+        "Développement du programme",
+        "Maintenabilité",
+        "Importation/exportation de données",
+      ],
+    },
+
+    {
+      title: "Se préparer aux emplois en cybersécurité",
+      hours: "11 heures",
+      learn: [
+        "Déterminer quand et comment faire remonter un incident",
+        "S'engager auprès de la communauté cybersécurité",
+        "Postuler à des emplois et préparer les entretiens",
+        "Utiliser l’IA pour améliorer ses compétences",
+      ],
+      skills: [
+        "Gestion des incidents",
+        "Sensibilisation à la sécurité",
+        "Sécurité des données",
+        "Communication technique",
+        "Réponse aux incidents",
+        "Workflows d'IA",
+        "Cybersécurité",
+        "Renseignements sur les cybermenaces",
+        "Éthique des données",
+        "Gestion de la sécurité",
+        "Gestion des incidents de sécurité informatique",
+        "Intelligence artificielle",
       ],
     },
   ];
 
   return (
     <div className="page-container">
-      {/* TITRE PRINCIPAL */}
       <h1 className="page-title">
-        Formation AFPA – VAE Niveau 5 (2016)
+        Formation Google – Cybersécurité (2026 – en cours)
       </h1>
 
-      {/* INTRO */}
       <div className="certificate-intro">
         <p className="certificate-description">
-          Titre professionnel validé en 2016 par la voie de la VAE au sein de
-          l’AFPA de Rennes. Ce diplôme de niveau 5 atteste de compétences solides
-          en relation clientèle, gestion administrative, communication
-          professionnelle et organisation du travail. Il constitue une base
-          essentielle pour les métiers du service, de l’accueil, de la gestion
-          et du support client.
+          Formation professionnelle débutée en janvier 2026 et toujours en
+          cours. Ce parcours Google prépare aux métiers de la cybersécurité en
+          couvrant les fondamentaux, les outils, les réseaux, la réponse aux
+          incidents, l’automatisation Python et la préparation au marché de
+          l’emploi.
         </p>
 
-        <h3>Missions associées au titre</h3>
+        <h3>Objectifs de la formation</h3>
         <ul className="certificate-skills">
-          <li>Accueillir, informer et orienter les usagers ou clients</li>
-          <li>Traiter les demandes, réclamations et dossiers administratifs</li>
-          <li>Assurer la communication interne et externe</li>
-          <li>Organiser et planifier les activités quotidiennes</li>
-          <li>Garantir la qualité du service rendu</li>
+          <li>Comprendre les bases de la cybersécurité</li>
+          <li>Analyser les menaces, risques et vulnérabilités</li>
+          <li>Maîtriser Linux, Bash, SQL et les outils SIEM</li>
+          <li>Détecter et répondre aux incidents de sécurité</li>
+          <li>Automatiser des tâches avec Python</li>
+          <li>Développer une posture professionnelle en cybersécurité</li>
         </ul>
-
-        <h3>Résumé du titre</h3>
-        <p className="certificate-summary">
-          Ce titre professionnel de niveau 5 valide des compétences opérationnelles
-          en gestion administrative et relation clientèle. Il permet d’occuper des
-          postes tels que assistante administrative, conseillère clientèle,
-          chargée d’accueil ou employée administrative polyvalente. La VAE atteste
-          d’une expérience professionnelle reconnue et valorisée par un diplôme
-          officiel.
-        </p>
       </div>
 
-      {/* TABLEAU DES COMPÉTENCES */}
-      <SkillsTable
-        title="Compétences – AFPA VAE Niveau 5"
-        sections={sectionsAfpa}
-      />
+      {/* Affichage des cours */}
+      {courses.map((course, index) => (
+        <div key={index} className="certificate-intro">
+          <h2>{course.title}</h2>
+          <p className="course-info">
+            Cours {index + 4} • {course.hours}
+          </p>
+
+          <h3>Ce que vous apprendrez</h3>
+          <ul className="certificate-skills">
+            {course.learn.map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
+          </ul>
+
+          <h3>Compétences acquises</h3>
+          <ul className="certificate-skills">
+            {course.skills.map((skill, i) => (
+              <li key={i}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 }
