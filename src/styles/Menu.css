@@ -85,7 +85,7 @@ nav.menu {
 
 /* Optionnel : badge à droite (comme "12 Available") */
 .submenu li a span.badge {
-  background: #5a189b;
+  background: #4b1483;
   color: #fff;
   padding: 4px 12px;
   border-radius: 8px;
