@@ -191,3 +191,13 @@
   height: 200px;
   object-fit: contain;
 }
+
+/* Neutralise les contextes d’empilement qui recouvrent le menu */
+section, main, article, header, footer {
+  position: static !important;
+  z-index: auto !important;
+  overflow: visible !important;
+  transform: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+}
