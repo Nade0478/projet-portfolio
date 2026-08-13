@@ -6,6 +6,7 @@ export default function Menu() {
   return (
     <nav className="menu">
       <ul className="menu-main">
+
         <li>
           <Link to="/">Accueil</Link>
         </li>
@@ -14,18 +15,10 @@ export default function Menu() {
           <span>Métier</span>
 
           <ul className="submenu">
-            <li>
-              <Link to="/dev">Développement Web</Link>
-            </li>
-            <li>
-              <Link to="/test">Test Logiciel</Link>
-            </li>
-            <li>
-              <Link to="/cyber">Cybersécurité</Link>
-            </li>
-            <li>
-              <Link to="/gestion">Gestion de projet</Link>
-            </li>
+            <li><Link to="/dev">Développement Web</Link></li>
+            <li><Link to="/test">Test Logiciel</Link></li>
+            <li><Link to="/cyber">Cybersécurité</Link></li>
+            <li><Link to="/gestion">Gestion de projet</Link></li>
           </ul>
         </li>
 
@@ -40,6 +33,7 @@ export default function Menu() {
         <li>
           <Link to="/cv">CV</Link>
         </li>
+
       </ul>
     </nav>
   );
