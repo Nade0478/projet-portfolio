@@ -12,33 +12,20 @@ body {
   font-family: "Alata", sans-serif;
 }
 
-/* ================================
-   CONTAINER PRINCIPAL AVEC FLOU
-   (CORRECTION : flou déplacé dans ::before)
-================================ */
-
 .page-container {
-  position: relative;
+  background: rgba(255, 255, 255, 0.75);
+
+  /* Compatibilité totale */
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+
   padding: 20px;
   border-radius: 12px;
   margin: 20px auto;
   max-width: 1200px;
-  background: rgba(255, 255, 255, 0.75);
-  overflow: visible; /* important */
 }
 
-/* Le flou est ici, derrière le contenu */
-.page-container::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
-  z-index: -1; /* le flou passe derrière le contenu */
-}
-
-/* ==========================
+ /* ==========================
  CV
  ==========================*/
 
@@ -83,7 +70,7 @@ body {
   text-decoration: none;
 }
 
-/* ==========================
+ /* ==========================
  CAPTURES
  ==========================*/
 
@@ -102,178 +89,13 @@ body {
   background-color: #001f6d;
 }
 
-/* ==========================
- FOND ECRAN PAGE PRINCIPALE
- ==========================*/
 
-.font-ecran {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  width: 100%;
-  background-color: #8ba794;
-}
-
-/* ==========================
- CONTAINER PORTFOLIO
- ==========================*/
-
-.portfolio-container {
-  text-align: center;
-  padding: 40px;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-/* PHOTO */
-.portfolio-photo {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-/* NOM */
-.portfolio-name {
-  margin-top: 20px;
-  font-size: 4rem;
-  font-weight: bold;
-}
-
-/* MÉTIER */
-.portfolio-job {
-  font-size: 2rem;
-  color: #d70059;
-  margin-bottom: 20px;
-}
-
-/* PRÉSENTATION */
-.portfolio-presentation {
-  font-size: 1.5rem;
-  color: #000000;
-  line-height: 1.6;
-  margin-bottom: 40px;
-}
-
-/* GRILLE DES MÉTIERS */
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-
-/* CARTES */
-.portfolio-card1,
-.portfolio-card2,
-.portfolio-card3,
-.portfolio-card4,
-.portfolio-card5,
-.portfolio-card6,
-.portfolio-card7 {
-  padding: 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #333;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-.portfolio-card2 {
-  grid-column: 1 / -1;
-}
-
-.portfolio-card:hover {
-  background-color: #eaeaea;
-  transform: translateY(-5px);
-}
-
-/* ==========================
- PAGE CONTACT
- ==========================*/
-
-.contact-container {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  text-align: center;
-}
-
-.contact-title {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.contact-label {
-  text-align: left;
-  font-weight: bold;
-  color: #333;
-}
-
-.contact-input,
-.contact-textarea {
-  width: 100%;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-}
-
-.contact-textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-.contact-button {
-  padding: 12px;
-  background-color: #333;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.contact-button:hover {
-  background-color: #555;
-}
-
-.logo-img {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-}
-
-/* ================================
-   Neutralisation des contextes d’empilement
-================================ */
-
+/* Neutralise les contextes d’empilement qui recouvrent le menu */
 section, main, article, header, footer {
-  position: static;
-  z-index: auto;
-  overflow: visible;
-}
-
-
-/* Correctif rapide : menu toujours au-dessus */
-nav.menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2147483647; /* valeur maximale sûre */
-  background: rgba(51,51,51,0.95); /* conserve l'apparence */
-}
-
-/* espace sous le menu pour éviter recouvrement du contenu */
-body {
-  padding-top: 64px; /* ajuste selon la hauteur réelle du menu */
+  position: static !important;
+  z-index: auto !important;
+  overflow: visible !important;
+  transform: none !important;
+  filter: none !important;
+  opacity: 1 !important;
 }

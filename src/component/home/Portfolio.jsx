@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/Home.css";
+import "../styles/Style.css";
 import backgroundImage from "../../assets/fond-ecran-portfolio.png";
 
 export default function Portfolio() {

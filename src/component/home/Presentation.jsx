@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/Dev.css";
+import "../../styles/Styles.css";
 
 export default function Presentation() {
   return (
