@@ -35,6 +35,9 @@ export default function Menu() {
             <li>
               <Link to="/div">Méthodes</Link>
             </li>
+            <li>
+              <Link to="/uix">Conception</Link>
+            </li>
           </ul>
         </li>
 

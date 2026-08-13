@@ -13,17 +13,22 @@ export default function Test() {
         "Les 7 principes fondamentaux du test",
         "Activités de test et testware",
         "Traçabilité et rôles dans le test",
+        "Indépendance du test",
+        "Compétences essentielles du testeur",
       ],
     },
     {
       label: "Tester tout au long du cycle de vie",
       items: [
-        "Tests dans les cycles de développement",
-        "Approche DevOps et impact sur les tests",
+        "Tests dans les cycles de développement (Agile, V-Model, DevOps)",
+        "Bonnes pratiques universelles de test",
+        "Approches pilotées par les tests (TDD, ATDD, BDD)",
         "Approche shift-left",
+        "Rétrospectives et amélioration continue",
         "Tests de maintenance",
         "Tests de confirmation et régression",
-        "Niveaux et types de tests",
+        "Niveaux de test (unitaire, intégration, système, acceptation)",
+        "Types de tests (fonctionnel, non fonctionnel, structurel)",
       ],
     },
     {
@@ -31,10 +36,11 @@ export default function Test() {
       items: [
         "Revue de documents",
         "Feedback précoce",
-        "Types de revues",
+        "Types de revues (informelle, walkthrough, inspection)",
         "Processus de revue",
         "Tests statiques vs dynamiques",
         "Rôles et responsabilités en revue",
+        "Valeur du test statique",
       ],
     },
     {
@@ -47,9 +53,11 @@ export default function Test() {
         "Transitions d’état",
         "Techniques boîte blanche",
         "Test des instructions et branches",
+        "Techniques basées sur l’expérience",
         "Test exploratoire",
-        "ATDD",
+        "Rédaction de user stories",
         "Critères d’acceptation",
+        "ATDD",
       ],
     },
     {
@@ -62,18 +70,26 @@ export default function Test() {
         "Pyramide des tests",
         "Quadrants du test",
         "Analyse des risques produit et projet",
+        "Probabilité × impact",
+        "Actions en réponse aux risques",
+        "Métriques de test",
         "Rapports de test",
+        "Communication de l’avancement",
         "Gestion des défauts",
+        "Rédaction de rapports d’anomalies",
         "Gestion de configuration",
       ],
     },
     {
       label: "Outils de test",
       items: [
-        "Outils de gestion de tickets",
-        "Outils de documentation",
-        "Automatisation des tests",
+        "Types d’outils de test",
+        "Outils de gestion de tests",
+        "Outils d’analyse statique",
+        "Outils d’automatisation",
+        "Outils de performance",
         "Cartographie des outils",
+        "Avantages et risques de l’automatisation",
         "Étude de rentabilité de l’automatisation",
       ],
     },
@@ -82,11 +98,11 @@ export default function Test() {
   return (
     <div className="page-container">
       <h1 className="page-title">
-        Certification ISTQB – Testeur Certifié Niveau Fondation
+        Certification ISTQB – Formation de Testeur Certifié Niveau Fondation
       </h1>
 
       <div className="certificate-intro">
-        <h2>Certificat obtenu en 2024 – M2i Formation</h2>
+        <h2>Certificat en 2024 – M2i Formation</h2>
 
         <p className="certificate-description">
           Cette certification internationale valide ma maîtrise des fondamentaux

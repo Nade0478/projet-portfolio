@@ -25,6 +25,7 @@ import CaptureSecurity from "./pages/portfolio/CarouselSecurity";
 import Menu from "./component/basics/Menu";
 import Footer from "./component/basics/Footer";
 import "./styles/Pages.css";
+import Uix from "./pages/metier/Uix";
 
 
 
@@ -46,6 +47,7 @@ function App() {
         <Route path="/adm" element={<Adm />} />
         <Route path="/cons" element={<Cons />} />
         <Route path="/div" element={<Div />} />
+        <Route path="/uix" element={<Uix />} />
 
         {/*  Ajout des routes carousels */}
         <Route path="/capture-conception" element={<CaptureConception />} />

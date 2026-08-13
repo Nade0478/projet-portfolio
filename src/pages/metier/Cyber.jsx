@@ -3,74 +3,47 @@ import SkillsTable from "../../component/SkillsTable";
 
 export default function Dev() {
   // -----------------------------
-  // SECTIONS CERTIFICAT 
+  // SECTIONS AFPA – VAE NIVEAU 5 (2016)
   // -----------------------------
-  const sectionsStudi = [
+  const sectionsAfpa = [
     {
-      label: "Langages",
-      items: ["JavaScript", "PHP", "SQL", "HTML", "CSS"],
-    },
-    {
-      label: "Frameworks et Outils",
+      label: "Compétences validées",
       items: [
-        "React",
-        "Laravel",
-        "Symfony (notions)",
-        "Node.js",
-        "MySQL",
-        "GitHub",
+        "Accueil et relation clientèle",
+        "Gestion administrative des dossiers",
+        "Traitement des demandes et réclamations",
+        "Organisation et planification des activités",
+        "Communication professionnelle orale et écrite",
+        "Respect des procédures et consignes",
       ],
     },
     {
-      label: "Méthodes",
-      items: ["Agile", "Scrum", "Kanban"],
-    },
-    {
-      label: "Projets",
-      projects: [
-        {
-          link: "https://github.com/Nade0478/Ecoride-projet",
-        },
+      label: "Compétences transversales",
+      items: [
+        "Gestion du stress",
+        "Adaptabilité aux situations variées",
+        "Travail en équipe",
+        "Autonomie et prise d’initiative",
+        "Rigueur et sens du service",
       ],
     },
-  ];
-
-  // -----------------------------
-  // SECTIONS CDA ARINFO
-  // -----------------------------
-  const sectionsCDA = [
     {
-      label: "Développement Back-end",
-      items: ["PHP", "Laravel", "Symfony", "POO", "Architecture MVC"],
+      label: "Outils maîtrisés",
+      items: [
+        "Suite Office (Word, Excel, Outlook)",
+        "Téléphonie professionnelle",
+        "Messagerie interne",
+        "Outils de gestion administrative",
+      ],
     },
     {
-      label: "Développement Front-end",
-      items: ["JavaScript", "React", "HTML", "CSS"],
-    },
-    {
-      label: "Conception et Architecture",
-      items: ["UML", "Merise", "Modélisation", "Conception d'applications"],
-    },
-    {
-      label: "Bases de données",
-      items: ["SQL", "MySQL", "Conception de schémas"],
-    },
-    {
-      label: "Outils et DevOps",
-      items: ["Git", "GitHub", "Docker", "CI/CD"],
-    },
-    {
-      label: "Méthodes",
-      items: ["Agile", "Scrum", "Kanban"],
-    },
-    {
-      label: "Projets",
-      projects: [
-        {
-          name: "Application Laravel",
-          description: "Application CRUD complète avec authentification.",
-          link: "https://github.com/Nade0478",
-        },
+      label: "Domaines abordés",
+      items: [
+        "Techniques de communication",
+        "Relation client",
+        "Gestion documentaire",
+        "Organisation du travail",
+        "Qualité de service",
       ],
     },
   ];
@@ -79,96 +52,44 @@ export default function Dev() {
     <div className="page-container">
       {/* TITRE PRINCIPAL */}
       <h1 className="page-title">
-        Développement Web – Diplômes et Compétences
+        Formation AFPA – VAE Niveau 5 (2016)
       </h1>
 
-      {/* SOUS-TITRE : LES 2 DIPLÔMES */}
-      <h2 className="page-subtitle">
-        {/* Bac+3/4 Concepteur Développeur d’Applications (Arinfo) — obtenu en 2025 */}
-      </h2>
-
-      {/* ----------------------------- */}
-      {/* BLOC BAC+2 STUDI */}
-      {/* ----------------------------- */}
+      {/* INTRO */}
       <div className="certificate-intro">
-        {/* <h2>Bac+2 Développeur Web Full Stack – Studi (2021–2026)</h2> */}
-
         <p className="certificate-description">
-          Ce diplôme Bac+2 m’a permis d’acquérir une base solide en
-          développement front-end et back-end, en conception d’applications, en
-          gestion de projet Agile, ainsi qu’en bonnes pratiques de qualité
-          logicielle. Il constitue le socle de mes compétences techniques
-          actuelles et de mon évolution vers les métiers du numérique.
+          Titre professionnel validé en 2016 par la voie de la VAE au sein de
+          l’AFPA de Rennes. Ce diplôme de niveau 5 atteste de compétences solides
+          en relation clientèle, gestion administrative, communication
+          professionnelle et organisation du travail. Il constitue une base
+          essentielle pour les métiers du service, de l’accueil, de la gestion
+          et du support client.
         </p>
 
-        <h3>Compétences acquises</h3>
+        <h3>Missions associées au titre</h3>
         <ul className="certificate-skills">
-          <li>Développement front-end : HTML, CSS, JavaScript</li>
-          <li>Développement back-end : PHP, Laravel, Symfony (notions)</li>
-          <li>Développement d’applications avec React</li>
-          <li>Bases de données : SQL, MySQL</li>
-          <li>Conception UML, architecture logicielle</li>
-          <li>Création de sites web dynamiques et responsives</li>
-          <li>Git, GitHub, Docker, CI/CD</li>
-          <li>Gestion de projet Agile : Scrum, Kanban</li>
-          <li>Analyse des besoins, rédaction de spécifications</li>
+          <li>Accueillir, informer et orienter les usagers ou clients</li>
+          <li>Traiter les demandes, réclamations et dossiers administratifs</li>
+          <li>Assurer la communication interne et externe</li>
+          <li>Organiser et planifier les activités quotidiennes</li>
+          <li>Garantir la qualité du service rendu</li>
         </ul>
 
-        <h3>Résumé du parcours</h3>
+        <h3>Résumé du titre</h3>
         <p className="certificate-summary">
-          Le programme couvre l’ensemble des compétences nécessaires au métier
-          de développeur web full stack : conception, développement front-end et
-          back-end, gestion de bases de données, intégration continue, tests,
-          documentation, gestion de projet Agile et réalisation de projets
-          concrets.
+          Ce titre professionnel de niveau 5 valide des compétences opérationnelles
+          en gestion administrative et relation clientèle. Il permet d’occuper des
+          postes tels que assistante administrative, conseillère clientèle,
+          chargée d’accueil ou employée administrative polyvalente. La VAE atteste
+          d’une expérience professionnelle reconnue et valorisée par un diplôme
+          officiel.
         </p>
       </div>
 
-      {/* TABLEAU DES COMPÉTENCES STUDI */}
+      {/* TABLEAU DES COMPÉTENCES */}
       <SkillsTable
-        title="Compétences et Projets – Bac+2 Studi"
-        sections={sectionsStudi}
-      />
-
-      {/* ----------------------------- */}
-      {/* BLOC CDA ARINFO */}
-      {/* ----------------------------- */}
-      <div className="certificate-intro">
-        <h2>Concepteur Développeur d’Applications – Arinfo (2024–2025)</h2>
-
-        <p className="certificate-description">
-          Cette formation Bac+3/4, suivie chez Arinfo, m’a permis de renforcer
-          mes compétences en développement avancé, en architecture logicielle,
-          en conception d’applications, en gestion de projet Agile et en
-          développement full stack. Elle m’a apporté une vision plus complète du
-          cycle de vie logiciel et une expertise plus poussée en développement.
-        </p>
-
-        <h3>Compétences acquises</h3>
-        <ul className="certificate-skills">
-          <li>Développement avancé : PHP, Laravel, Symfony</li>
-          <li>Développement front-end : JavaScript, React</li>
-          <li>Conception UML, architecture MVC</li>
-          <li>Gestion de bases de données SQL</li>
-          <li>Docker, CI/CD, Git, GitHub</li>
-          <li>Gestion de projet Agile : Scrum, Kanban</li>
-          <li>Analyse des besoins, rédaction de spécifications</li>
-          <li>Création d’applications complètes (front + back)</li>
-        </ul>
-
-        <h3>Résumé du programme</h3>
-        <p className="certificate-summary">
-          Le programme CDA couvre la conception, le développement, les tests, la
-          documentation, l’architecture logicielle, les bases de données, les
-          frameworks modernes, les outils DevOps et la réalisation de projets
-          professionnels.
-        </p>
-      </div>
-
-      {/* TABLEAU DES COMPÉTENCES CDA */}
-      <SkillsTable
-        title="Compétences et Projets – CDA Arinfo"
-        sections={sectionsCDA}
+        title="Compétences – AFPA VAE Niveau 5"
+        sections={sectionsAfpa}
       />
     </div>
   );
