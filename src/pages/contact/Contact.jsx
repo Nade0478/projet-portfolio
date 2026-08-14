@@ -4,7 +4,7 @@ import "../../styles/Contact.css";
 export default function Contact() {
   return (
     <div className="contact-container">
-      <h1 className="contact-title">Contact Professionnel</h1>
+      <h1 className="contact-title">Contact</h1>
 
       <div className="contact-card">
         <h2 className="contact-name">Mme GAUTIER Nadège</h2>
