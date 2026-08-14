@@ -1,8 +1,8 @@
 import React from "react";
 import SkillsTable from "../../component/SkillsTable";
-import "../../styles/Styles.css";
+import "../../styles/Home.css";
 
-export default function Dev() {
+export default function Cons() {
   // -----------------------------
   // SECTIONS AFPA – CONSEILLÈRE CLIENTÈLE À DISTANCE (2016)
   // -----------------------------
