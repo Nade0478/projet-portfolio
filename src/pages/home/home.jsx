@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../../styles/Home.css";
 import Presentation from "../../component/home/Presentation";
 
-export default function Home() {
+export default function home() {
   return (
     <div className="portfolio-container">
       <img

@@ -1,5 +1,7 @@
 import React from "react";
 import SkillsTable3 from "../../component/SkillsTable3";
+import "../../styles/Home.css";
+
 
 export default function Test() {
   const sections = [

@@ -1,5 +1,6 @@
 import React from "react";
 import SkillsTable from "../../component/SkillsTable";
+import "../../styles/Home.css";
 
 export default function Dev() {
   // -----------------------------
