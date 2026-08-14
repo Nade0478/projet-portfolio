@@ -15,7 +15,7 @@ export default function Presentation() {
         {/* PRESENTATION */}
         <div className="Presentation-card">
           <h2>
-            Développeuse Web • Testeuse Logicielle • Future Cheffe de Projet
+            Développeuse Web • Testeuse Logicielle • Assistante Cheffe de Projet
           </h2>
 
           <h3>

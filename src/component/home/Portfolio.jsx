@@ -19,7 +19,7 @@ export default function Portfolio() {
         <h1 className="portfolio-name">Nadège Gautier</h1>
 
         <h2 className="portfolio-job">
-          Développeuse Web • Testeuse Logicielle • Future Cheffe de Projet
+          Développeuse Web • Testeuse Logicielle • Assistante Cheffe de Projet
         </h2>
 
         <p className="portfolio-presentation">
