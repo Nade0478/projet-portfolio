@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/projet-portfolio/static/css/main.a150daad.css",
-    "main.js": "/projet-portfolio/static/js/main.3a159519.js",
-    "static/media/Cv développeur 2026.pdf": "/projet-portfolio/static/media/Cv développeur 2026.57298c56eee6cdef387b.pdf",
+    "main.css": "/projet-portfolio/static/css/main.ea678861.css",
+    "main.js": "/projet-portfolio/static/js/main.85bf66ec.js",
     "static/media/fond-ecran-portfolio.png": "/projet-portfolio/static/media/fond-ecran-portfolio.7a086b99ed678522d23f.png",
     "static/media/Capture-maquettes2.png": "/projet-portfolio/static/media/Capture-maquettes2.d890ad375c60926db5c9.png",
-    "static/media/CV Testeur ISTQB.pdf": "/projet-portfolio/static/media/CV Testeur ISTQB.5aeb3bd86b410bcd20ae.pdf",
     "static/media/Capture-maquette2.png": "/projet-portfolio/static/media/Capture-maquette2.026d04559746158801f1.png",
     "static/media/Capture-maquette.png": "/projet-portfolio/static/media/Capture-maquette.a8ad1736bfdb3b6f624e.png",
     "static/media/Capture-deploiement-front-netifly.png": "/projet-portfolio/static/media/Capture-deploiement-front-netifly.b91473fd596ace77aaae.png",
     "static/media/Workbench-Sql.jpg": "/projet-portfolio/static/media/Workbench-Sql.6d67fd503cef38ee8ad8.jpg",
     "static/media/CV architecture et application.pdf": "/projet-portfolio/static/media/CV architecture et application.952325a400982c7fcde3.pdf",
     "static/media/CV Conseiller clientèle à distance.pdf": "/projet-portfolio/static/media/CV Conseiller clientèle à distance.0bb7f89b1e587c433b7e.pdf",
-    "static/media/nouveau cv secrétaire administrative.pdf": "/projet-portfolio/static/media/nouveau cv secrétaire administrative.042fe7a139fa46c3ffdc.pdf",
+    "static/media/CV_secrétaire administrative.pdf": "/projet-portfolio/static/media/CV_secrétaire administrative.042fe7a139fa46c3ffdc.pdf",
     "static/media/Annexe2-dossier-pro.jpg": "/projet-portfolio/static/media/Annexe2-dossier-pro.9d2677b061707c2d9125.jpg",
     "static/media/Capture-diagramme-cas-utilisation.png": "/projet-portfolio/static/media/Capture-diagramme-cas-utilisation.16349dcaab6e9560e3e4.png",
     "static/media/Capture-mcd.png": "/projet-portfolio/static/media/Capture-mcd.c3f8d52c50181537ea5e.png",
     "static/media/LEAFLET.jpg": "/projet-portfolio/static/media/LEAFLET.107a1f05c55f278fdfeb.jpg",
     "static/media/Capture d’écran Dockerfile react.jpg": "/projet-portfolio/static/media/Capture d’écran Dockerfile react.eca1de3c6768ceeca629.jpg",
+    "static/media/CV_2026_NADEGE_GAUTIER.pdf": "/projet-portfolio/static/media/CV_2026_NADEGE_GAUTIER.fcba9a985bc5fe67e48e.pdf",
     "static/media/Capture-diagramme-activite.png": "/projet-portfolio/static/media/Capture-diagramme-activite.03799227d1703c6827f8.png",
     "static/media/Capture-test-lighthouse-seo.png": "/projet-portfolio/static/media/Capture-test-lighthouse-seo.cc51cf7801ed6b2e7de0.png",
     "static/media/Annexe4-dossier-projet.jpg": "/projet-portfolio/static/media/Annexe4-dossier-projet.bd59fea53cbba5037318.jpg",
@@ -32,11 +31,11 @@
     "static/media/Capture-tests.png": "/projet-portfolio/static/media/Capture-tests.b244f5f673b118b8bd1f.png",
     "static/media/LEAFLET2.jpg": "/projet-portfolio/static/media/LEAFLET2.3b0ab06ad48a1367d241.jpg",
     "index.html": "/projet-portfolio/index.html",
-    "main.a150daad.css.map": "/projet-portfolio/static/css/main.a150daad.css.map",
-    "main.3a159519.js.map": "/projet-portfolio/static/js/main.3a159519.js.map"
+    "main.ea678861.css.map": "/projet-portfolio/static/css/main.ea678861.css.map",
+    "main.85bf66ec.js.map": "/projet-portfolio/static/js/main.85bf66ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.a150daad.css",
-    "static/js/main.3a159519.js"
+    "static/css/main.ea678861.css",
+    "static/js/main.85bf66ec.js"
   ]
 }
