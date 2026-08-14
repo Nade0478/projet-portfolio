@@ -7,7 +7,7 @@ import Portfolio from "./pages/portfolio/Portfolio";
 
 // Pages métier
 import Dev from "./pages/metier/Dev";
-import Tests from "./pages/metier/Test";
+import Test from "./pages/metier/Test";
 import Projet from "./pages/metier/Projet";
 import Cyber from "./pages/metier/Cyber";
 import Adm from "./pages/metier/Adm";
@@ -43,7 +43,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
 
         <Route path="/dev" element={<Dev />} />
-        <Route path="/tests" element={<Tests />} />
+        <Route path="/test" element={<Test />} />
         <Route path="/projet" element={<Projet />} />
         <Route path="/cyber" element={<Cyber />} />
         <Route path="/adm" element={<Adm />} />

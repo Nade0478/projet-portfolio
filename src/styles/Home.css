@@ -201,3 +201,26 @@ section, main, article, header, footer {
   filter: none !important;
   opacity: 1 !important;
 }
+
+/* TITRES - hiérarchie de tailles */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 26px;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+h4, h5, h6, p, span, div {
+  font-size: 10rem;
+}
