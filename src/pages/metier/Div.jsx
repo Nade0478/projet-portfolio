@@ -2,7 +2,7 @@ import React from "react";
 // import Menu from "../../component/basics/Menu";
 // import Footer from "../../component/basics/Footer";
 import SkillsTable from "../../component/SkillsTable";
-import "../../styles/Home.css";
+import "../../styles/Styles.css";
 
 
 export default function Div() {

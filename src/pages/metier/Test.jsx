@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsTable3 from "../../component/SkillsTable3";
-import "../../styles/Home.css";
+import "../../styles/Styles.css";
 
 
 export default function Test() {

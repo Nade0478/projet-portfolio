@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsTable from "../../component/SkillsTable";
-import "../../styles/Home.css";
+import "../../styles/Styles.css";
 
 export default function Uix() {
   // -----------------------------
