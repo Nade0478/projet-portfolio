@@ -11,7 +11,7 @@ export default function Portfolio() {
     >
       <div className="portfolio-container">
         <img
-          src="/photoPourLinkdin.jpg"
+          src="src\assets\photoPourLinkdin.jpg"
           alt="Nadège Gautier"
           className="portfolio-photo"
         />

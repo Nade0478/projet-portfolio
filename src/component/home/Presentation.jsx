@@ -4,29 +4,29 @@ import "../../styles/Styles.css";
 export default function Presentation() {
   return (
     <div className="Presentation-container">
-        <h1 className="Presentation-title">
-              Développement Web, Tests Logiciels et Gestion de Projet
-        </h1>
-          <h1 className="Presentation-container">
-            Un Profil Polyvalent et Orienté Qualité
-          </h1>  
+      <h2 className="Presentation-title">
+          Développeuse Web • Testeuse Logicielle • Assistante Cheffe de Projet
+      </h2>
+      <h3 className="Presentation-container">
+        Un Profil Polyvalent et Orienté Qualité
+      </h3>
 
       <div className="Presentation-grid">
         {/* PRESENTATION */}
         <div className="Presentation-card">
-          <h2>
+          {/* <h2>
             Développeuse Web • Testeuse Logicielle • Assistante Cheffe de Projet
-          </h2>
+          </h2> */}
 
-          <h3>
+          <h4>
             Passionnée par le développement web, les tests logiciels et la
             gestion de projet, j’accompagne les entreprises dans la création de
             solutions fiables, modernes et sécurisées. En reconversion
             professionnelle, je combine rigueur, créativité et sens de
             l’organisation pour mener à bien chaque mission.
-          </h3>
+          </h4>
 
-          <h3>
+          <h4>
             Après plusieurs années d’expérience dans des secteurs variés -
             énergies renouvelables, assurances, traitement de l’eau, formation,
             santé et administratif - ainsi que plus de cinq ans en tant
@@ -43,7 +43,7 @@ export default function Presentation() {
             développeuse full stack et testeuse certifiée ISTQB, avec l’ambition
             de créer des solutions fiables, utiles et pensées pour les
             utilisateurs.
-          </h3>
+          </h4>
         </div>
       </div>
     </div>

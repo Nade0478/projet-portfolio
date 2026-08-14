@@ -12,7 +12,7 @@ export default function Profile() {
           boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
         }}
       />
-      <h2 style={{ marginTop: "50px" }}>Nadège GAUTIER</h2>
+      <h1 style={{ marginTop: "50px" }}>Nadège GAUTIER</h1>
     </div>
   );
 }

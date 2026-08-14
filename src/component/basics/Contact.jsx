@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="container">
       <div className="form-container contact-card">
-        <h2 className="form-section-title">Contact Professionnel</h2>
+        <h2 className="form-section-title">Contact</h2>
 
         <div className="contact-info">
           <p>
