@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projet-portfolio/static/css/main.df05d9a5.css",
-    "main.js": "/projet-portfolio/static/js/main.293f3d2b.js",
+    "main.js": "/projet-portfolio/static/js/main.ebd1d607.js",
     "static/media/fond-ecran-portfolio.png": "/projet-portfolio/static/media/fond-ecran-portfolio.7a086b99ed678522d23f.png",
     "static/media/Capture-maquettes2.png": "/projet-portfolio/static/media/Capture-maquettes2.d890ad375c60926db5c9.png",
     "static/media/Capture-maquette2.png": "/projet-portfolio/static/media/Capture-maquette2.026d04559746158801f1.png",
@@ -18,24 +18,21 @@
     "static/media/Capture d’écran Dockerfile react.jpg": "/projet-portfolio/static/media/Capture d’écran Dockerfile react.eca1de3c6768ceeca629.jpg",
     "static/media/CV_2026_NADEGE_GAUTIER.pdf": "/projet-portfolio/static/media/CV_2026_NADEGE_GAUTIER.fcba9a985bc5fe67e48e.pdf",
     "static/media/Capture-diagramme-activite.png": "/projet-portfolio/static/media/Capture-diagramme-activite.03799227d1703c6827f8.png",
-    "static/media/Capture-test-lighthouse-seo.png": "/projet-portfolio/static/media/Capture-test-lighthouse-seo.cc51cf7801ed6b2e7de0.png",
     "static/media/Annexe4-dossier-projet.jpg": "/projet-portfolio/static/media/Annexe4-dossier-projet.bd59fea53cbba5037318.jpg",
     "static/media/Capture-fonction-register.png": "/projet-portfolio/static/media/Capture-fonction-register.6482174b40c5892e8f22.png",
-    "static/media/Capture-test-postman.png": "/projet-portfolio/static/media/Capture-test-postman.7667922d5f2dc53617ab.png",
     "static/media/Capture-wireframe.png": "/projet-portfolio/static/media/Capture-wireframe.d39ef16105962c873c8f.png",
     "static/media/Capture d'écran 2025-05-15 174546.png": "/projet-portfolio/static/media/Capture d'écran 2025-05-15 174546.dce532b10a277b703096.png",
     "static/media/Annexe3-dossier-projet.jpg": "/projet-portfolio/static/media/Annexe3-dossier-projet.33986cf5668ef3db1207.jpg",
     "static/media/annexe1-dossier-projet.jpg": "/projet-portfolio/static/media/annexe1-dossier-projet.d6f1d422994523363178.jpg",
     "static/media/Capture-wireframes3.png": "/projet-portfolio/static/media/Capture-wireframes3.94e3b837d4ba3272ddac.png",
     "static/media/Capture-wireframe1.png": "/projet-portfolio/static/media/Capture-wireframe1.80901a7604c646727309.png",
-    "static/media/Capture-tests.png": "/projet-portfolio/static/media/Capture-tests.b244f5f673b118b8bd1f.png",
     "static/media/LEAFLET2.jpg": "/projet-portfolio/static/media/LEAFLET2.3b0ab06ad48a1367d241.jpg",
     "index.html": "/projet-portfolio/index.html",
     "main.df05d9a5.css.map": "/projet-portfolio/static/css/main.df05d9a5.css.map",
-    "main.293f3d2b.js.map": "/projet-portfolio/static/js/main.293f3d2b.js.map"
+    "main.ebd1d607.js.map": "/projet-portfolio/static/js/main.ebd1d607.js.map"
   },
   "entrypoints": [
     "static/css/main.df05d9a5.css",
-    "static/js/main.293f3d2b.js"
+    "static/js/main.ebd1d607.js"
   ]
 }
