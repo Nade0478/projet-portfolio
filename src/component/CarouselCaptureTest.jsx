@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function CarouselCaptureTest({ captures }) {
   const [index, setIndex] = useState(0);
@@ -37,6 +38,11 @@ export default function CarouselCaptureTest({ captures }) {
         </a>
 
         <button onClick={next}>Suivant ▶</button>
+
+        {/*  BOUTON QUI REDIRIGE VERS LA PAGE TEST */}
+        <Link to="/test" className="open-pdf">
+          Voir la formation ISTQB
+        </Link>
       </div>
     </div>
   );

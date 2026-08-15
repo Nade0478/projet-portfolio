@@ -1,25 +1,49 @@
-import React from "react";
-import CarouselCaptureTest from "../../component/CarouselCaptureTest.jsx";
+import React, { useState } from "react";
+import { Link } from "react-router-dom"; 
 
-function importAll(r) {
-  return r.keys().map((key) => ({
-    name: key.replace("./", ""),
-    file: r(key),
-  }));
-}
+export default function CarouselCaptureTest({ captures }) {
+  const [index, setIndex] = useState(0);
 
-const captures = importAll(
-  require.context("../../assets/capture-test", false, /\.(png|jpe?g|svg)$/)
-);
+  const prev = () => {
+    setIndex((index - 1 + captures.length) % captures.length);
+  };
 
-export default function CaptureTest() {
+  const next = () => {
+    setIndex((index + 1) % captures.length);
+  };
+
   return (
-    <div className="page-container">
-      <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
-        Captures de Tests
-      </h1>
+    <div className="cv-carousel">
+      <h2>{captures[index].name}</h2>
 
-      <CarouselCaptureTest captures={captures} />
+      <div className="cv-viewer">
+        <img
+          src={captures[index].file}
+          alt={captures[index].name}
+          width="100%"
+          style={{ maxHeight: "500px", objectFit: "contain" }}
+        />
+      </div>
+
+      <div className="cv-buttons">
+        <button onClick={prev}>◀ Précédent</button>
+
+        <a
+          href={captures[index].file}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="open-pdf"
+        >
+          Ouvrir l’image
+        </a>
+
+        <button onClick={next}>Suivant ▶</button>
+
+        {/* BOUTON QUI REDIRIGE VERS LA PAGE TEST */}
+        <Link to="/test" className="open-pdf">
+          Voir la formation ISTQB
+        </Link>
+      </div>
     </div>
   );
 }

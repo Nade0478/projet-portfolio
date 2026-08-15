@@ -2,7 +2,6 @@ import React from "react";
 import SkillsTable3 from "../../component/SkillsTable3";
 import "../../styles/Styles.css";
 
-
 export default function Test() {
   const sections = [
     {
@@ -108,10 +107,7 @@ export default function Test() {
 
         <p className="certificate-description">
           Cette certification internationale valide ma maîtrise des fondamentaux
-          du test logiciel selon le standard ISTQB Foundation Level V4.0. Elle
-          atteste de mes compétences en conception, exécution, documentation et
-          analyse des tests, ainsi que de ma capacité à contribuer efficacement
-          à la qualité logicielle au sein d’une équipe de développement.
+          du test logiciel selon le standard ISTQB Foundation Level V4.0.
         </p>
 
         <h3>Compétences acquises</h3>
@@ -140,11 +136,7 @@ export default function Test() {
         <h3>Résumé du programme</h3>
         <p className="certificate-summary">
           La formation ISTQB Niveau Fondation couvre les fondamentaux du métier
-          de testeur logiciel : niveaux et types de tests, test statique,
-          techniques de conception, gestion des activités de test, outils de
-          test et préparation à l’examen. Elle inclut des exercices pratiques,
-          des QCM, des revues, des analyses de risques et un examen blanc
-          complet.
+          de testeur logiciel.
         </p>
       </div>
 
