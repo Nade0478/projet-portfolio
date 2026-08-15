@@ -34,7 +34,7 @@ export default function Portfolio() {
             <p>React, Laravel, API, Front et Back</p>
           </Link>
 
-          <Link to="/tests" className="portfolio-card3">
+          <Link to="/test" className="portfolio-card3">
             <h3>Testeur ISTQB</h3>
             <p>Tests fonctionnelles et automatisations</p>
           </Link>
