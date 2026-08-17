@@ -7,7 +7,7 @@ export default function home() {
   return (
     <div className="portfolio-container">
       <img
-        src="/src\assets\photoPourLinkdin.jpg"
+        src="public\photoPourLinkdin.jpg"
         alt="Nadège Gautier"
         className="portfolio-photo"
       />

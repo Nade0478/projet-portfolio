@@ -4,7 +4,7 @@ export default function Profile() {
   return (
     <div style={{ textAlign: "center", marginTop: "20px" }}>
       <img
-        src="/photoPourLinkdin.jpg"
+        src="/public\photoPourLinkdin.jpg"
         alt="Nadège GAUTIER"
         style={{
           width: "200px",
