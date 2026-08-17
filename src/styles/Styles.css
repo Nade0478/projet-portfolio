@@ -367,7 +367,9 @@ portfoliocard4,
   background: rgba(255, 255, 255, 0.75); /* fond transparent */
   border-radius: 12px;
   padding: 25px;
-  margin-top: 20px;
+
+  /* espace sous la box-shadow */
+  margin-bottom: 40px;
 
   /* flou moderne */
   -webkit-backdrop-filter: blur(6px);
@@ -384,6 +386,6 @@ portfoliocard4,
 /* Le menu doit rester au-dessus */
 nav.menu,
 .menu-metier .submenu {
-  z-index: 999999;
   position: relative;
+  z-index: 999999; /* toujours devant */
 }
