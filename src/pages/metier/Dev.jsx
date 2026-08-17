@@ -79,7 +79,9 @@ export default function Dev() {
   return (
     <div className="page-container">
       {/* TITRE PRINCIPAL */}
-      <h1 className="page-title">Développement Web – Diplômes et Compétences</h1>
+      <h1 className="page-title">
+        Développement Web Full Stack avec Studi 2021-2026
+      </h1>
 
       {/* SOUS-TITRE : LES 2 DIPLÔMES */}
       <h2 className="page-subtitle">
@@ -119,7 +121,8 @@ export default function Dev() {
           de développeur web full stack : conception, développement front-end et
           back-end, gestion de bases de données, intégration continue, tests,
           documentation, gestion de projet Agile et réalisation de projets
-          concrets.
+          concrets. Plusieurs projets de créer en entrainement et en
+          présentation pour l'examen devant le jury.
         </p>
       </div>
 
@@ -133,7 +136,7 @@ export default function Dev() {
       {/* BLOC CDA ARINFO */}
       {/* ----------------------------- */}
       <div className="certificate-intro">
-        <h2>Concepteur Développeur d’Applications – Arinfo (2024–2025)</h2>
+        <h2>Concepteur Développeur d’Applications à Arinfo (2024– validé en 2025)</h2>
 
         <p className="certificate-description">
           Cette formation Bac+3/4, suivie chez Arinfo, m’a permis de renforcer
@@ -160,7 +163,8 @@ export default function Dev() {
           Le programme CDA couvre la conception, le développement, les tests, la
           documentation, l’architecture logicielle, les bases de données, les
           frameworks modernes, les outils DevOps et la réalisation de projets
-          professionnels.
+          professionnels. Plusieurs projets de créer en entrainement et en
+          présentation pour l'examen devant le jury.
         </p>
       </div>
 

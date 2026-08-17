@@ -89,7 +89,12 @@ export default function Uix() {
           Je conçois des interfaces intuitives, accessibles et centrées
           utilisateur. Grâce à Figma, Miro et UML, je structure les projets
           depuis l’analyse des besoins jusqu’au prototype final. Mon approche
-          combine design, ergonomie, architecture et collaboration.
+          combine design, ergonomie, architecture et collaboration. Lors des
+          divers formation en IT j'ai mis en place avant la création de
+          l'application toutes la partie UX et UIX car il faut comprendre avant
+          de concevoir comment va réagir l'utilisateur et prévoir par rapport
+          aux éventuelles handicapes (personas, normes RGAA, diagrammes,
+          wireframes, maquettes).{" "}
         </p>
       </div>
 

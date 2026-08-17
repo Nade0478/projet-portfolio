@@ -103,7 +103,7 @@ export default function Test() {
       </h1>
 
       <div className="certificate-intro">
-        <h2>2024 – M2i Formation</h2>
+        <h2>2024 avec M2i Formation</h2>
 
         <p className="certificate-description">
           Cette certification internationale valide ma maîtrise des fondamentaux
@@ -136,7 +136,7 @@ export default function Test() {
         <h3>Résumé du programme</h3>
         <p className="certificate-summary">
           La formation ISTQB Niveau Fondation couvre les fondamentaux du métier
-          de testeur logiciel.
+          de testeur logiciel. Beaucoup d'exercices de mises en pratiques et d'utilisation des divers logiciels de test.
         </p>
       </div>
 

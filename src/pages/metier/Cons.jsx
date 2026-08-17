@@ -55,7 +55,7 @@ export default function Cons() {
     <div className="page-container">
       {/* TITRE PRINCIPAL */}
       <h1 className="page-title">
-        AFPA – VAE Niveau 5 : Conseillère Clientèle à Distance (2016)
+        Conseillère Clientèle à Distance (validé en VAE à l'AFPA Rennes en 2016)
       </h1>
 
       {/* INTRO */}

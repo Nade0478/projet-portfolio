@@ -39,7 +39,7 @@ export default function Adm() {
     <div className="page-container">
       {/* TITRE PRINCIPAL */}
       <h1 className="page-title">
-        Assistante Administrative – Expérience et Compétences
+        Assistante Administrative – Expérience et Compétences (BAC+2 validé partiellement)
       </h1>
 
       {/* SECTION INTRO */}
