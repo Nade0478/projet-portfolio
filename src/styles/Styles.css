@@ -249,9 +249,14 @@ footer {
 
 .portfolio-name {
   margin-top: 20px;
-  font-size: 4rem;
-  font-weight: bold;
+  font-size: 6rem;     
+  font-weight: 900;     
+  letter-spacing: 2px;    
+  text-transform: uppercase;
+  color: #ffffff;        
+  text-shadow: 0 4px 10px rgba(0,0,0,0.4); 
 }
+
 
 .portfolio-job {
   font-size: 2rem;
