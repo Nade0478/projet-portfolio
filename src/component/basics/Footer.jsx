@@ -49,9 +49,7 @@ export default function Footer() {
           <p>Mail : nade04ge@gmail.com</p>
 
           {/* LIEN REACT ROUTER */}
-          <Link to="/contact" className="footer-contact-link">
-            Contact
-          </Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </footer>
