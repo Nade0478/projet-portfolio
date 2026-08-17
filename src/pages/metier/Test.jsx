@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SkillsTable3 from "../../component/SkillsTable3";
 import "../../styles/Styles.css";
 
@@ -102,6 +103,11 @@ export default function Test() {
         Formation de Testeur Certifié Niveau Fondation ISTQB
       </h1>
 
+      {/* BOUTON VERS LE CAROUSEL */}
+      <Link to="/capture-test" className="open-pdf">
+        Voir les captures de tests
+      </Link>
+
       <div className="certificate-intro">
         <h2>2024 avec M2i Formation</h2>
 
@@ -136,7 +142,8 @@ export default function Test() {
         <h3>Résumé du programme</h3>
         <p className="certificate-summary">
           La formation ISTQB Niveau Fondation couvre les fondamentaux du métier
-          de testeur logiciel. Beaucoup d'exercices de mises en pratiques et d'utilisation des divers logiciels de test.
+          de testeur logiciel. Beaucoup d'exercices de mises en pratiques et
+          d'utilisation des divers logiciels de test.
         </p>
       </div>
 

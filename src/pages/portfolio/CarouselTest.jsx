@@ -1,49 +1,20 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom"; 
+import CarouselCaptureTest from "../../component/CarouselCaptureTest";
 
-export default function CarouselCaptureTest({ captures }) {
-  const [index, setIndex] = useState(0);
+export default function CarouselTest() {
+  const captures = [
+    {
+      name: "Test Lighthouse SEO",
+      file: "/assets/capture-test-lighthouse-seo.png",
+    },
+    {
+      name: "Test Postman API",
+      file: "/assets/capture-test-postman.png",
+    },
+    {
+      name: "Tests divers",
+      file: "/assets/Capture-tests.png",
+    },
+  ];
 
-  const prev = () => {
-    setIndex((index - 1 + captures.length) % captures.length);
-  };
-
-  const next = () => {
-    setIndex((index + 1) % captures.length);
-  };
-
-  return (
-    <div className="cv-carousel">
-      <h2>{captures[index].name}</h2>
-
-      <div className="cv-viewer">
-        <img
-          src={captures[index].file}
-          alt={captures[index].name}
-          width="100%"
-          style={{ maxHeight: "500px", objectFit: "contain" }}
-        />
-      </div>
-
-      <div className="cv-buttons">
-        <button onClick={prev}>◀ Précédent</button>
-
-        <a
-          href={captures[index].file}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="open-pdf"
-        >
-          Ouvrir l’image
-        </a>
-
-        <button onClick={next}>Suivant ▶</button>
-
-        {/* BOUTON QUI REDIRIGE VERS LA PAGE TEST */}
-        <Link to="/test" className="open-pdf">
-          Voir la formation ISTQB
-        </Link>
-      </div>
-    </div>
-  );
+  return <CarouselCaptureTest captures={captures} />;
 }

@@ -39,9 +39,8 @@ export default function CarouselCaptureTest({ captures }) {
 
         <button onClick={next}>Suivant ▶</button>
 
-        {/*  BOUTON QUI REDIRIGE VERS LA PAGE TEST */}
-        <Link to="/test" className="open-pdf">
-          Voir la formation ISTQB
+        <Link to="/metier/test" className="open-pdf">
+          Retour à la formation ISTQB
         </Link>
       </div>
     </div>
