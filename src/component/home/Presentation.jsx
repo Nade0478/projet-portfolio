@@ -3,13 +3,15 @@ import "../../styles/Styles.css";
 
 export default function Presentation() {
   return (
+  <div className="Presentation-grid">
     <div className="Presentation-container">
       <h2 className="Presentation-title">
         Développeuse Web • Testeuse Logicielle • Assistante Cheffe de Projet
       </h2>
       <h3 className="Presentation-container">
         Un Profil Polyvalent et Orienté Qualité
-      </h3>
+        </h3>
+    </div>
 
       <div className="Presentation-grid">
         {/* PRESENTATION */}
