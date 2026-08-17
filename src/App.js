@@ -31,7 +31,7 @@ import Uix from "./pages/metier/Uix";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/projet-portfolio">
       <Menu />
 
       <Routes>
@@ -51,7 +51,6 @@ function App() {
         <Route path="/div" element={<Div />} />
         <Route path="/uix" element={<Uix />} />
 
-        {/*  Ajout des routes carousels */}
         <Route path="/capture-conception" element={<CaptureConception />} />
         <Route path="/capture-deploiement" element={<CaptureDeploiement />} />
         <Route path="/capture-test" element={<CaptureTest />} />
