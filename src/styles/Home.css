@@ -5,9 +5,8 @@
   background-repeat: no-repeat;
   min-height: 100vh;
   width: 100%;
-  background-color: #8ba794;
+  background-color: rgba(139, 167, 148, 0.4); /* 40% opaque */
 }
-
 
 /* CONTAINER PRINCIPAL */
 .portfolio-container {
