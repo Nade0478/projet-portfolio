@@ -248,15 +248,17 @@ footer {
 }
 
 .portfolio-name {
-  margin-top: 20px;
-  font-size: 6rem;     
-  font-weight: 900;     
-  letter-spacing: 2px;    
+  margin-top: 40px;
+  font-size: 7rem;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 3px;
   text-transform: uppercase;
-  color: #ffffff;        
-  text-shadow: 0 4px 10px rgba(0,0,0,0.4); 
+  background: linear-gradient(90deg, #ffffff, #d70059);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: none;
 }
-
 
 .portfolio-job {
   font-size: 2rem;

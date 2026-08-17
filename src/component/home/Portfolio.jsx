@@ -11,7 +11,7 @@ export default function Portfolio() {
     >
       <div className="portfolio-container">
         <img
-          src="public\photoPourLinkdin.jpg"
+          src="/photoPourLinkdin.jpg"
           alt="Nadège Gautier"
           className="portfolio-photo"
         />
@@ -28,45 +28,7 @@ export default function Portfolio() {
           fiables, modernes et sécurisées.
         </p>
 
-        <div className="portfolio-grid">
-          <Link to="/dev" className="portfolio-card1">
-            <h3>Développement Web</h3>
-            <p>React, Laravel, API, Front et Back</p>
-          </Link>
-
-          <Link to="/test" className="portfolio-card3">
-            <h3>Testeur ISTQB</h3>
-            <p>Tests fonctionnelles et automatisations</p>
-          </Link>
-
-          <Link to="/projet" className="portfolio-card4">
-            <h3>Gestion de Projet</h3>
-            <p>Organisation, planification, pilotage</p>
-          </Link>
-
-          <Link to="/cyber" className="portfolio-card5">
-            <h3>Cybersécurité</h3>
-            <p>Analyse, prévention, bonnes pratiques</p>
-          </Link>
-
-          <Link to="/adm" className="portfolio-card6">
-            <h3>Assistante Administrative</h3>
-            <p>
-              Pack Office, Gestion d'agenda, Standard, traitement de dossier
-              administratif
-            </p>
-          </Link>
-
-          <Link to="/cons" className="portfolio-card7">
-            <h3>Conseillère clientèle à distance</h3>
-            <p>Gestion de demande client, prise de rendez-vous , SAV</p>
-          </Link>
-
-          <Link to="/div" className="portfolio-card2">
-            <h3>Méthode et Language</h3>
-            <p>Agile, Scrum, Leen</p>
-          </Link>
-        </div>
+        <div className="portfolio-grid">{/* tes liens */}</div>
       </div>
     </div>
   );
