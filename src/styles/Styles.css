@@ -358,3 +358,32 @@ portfoliocard4,
   height: 200px;
   object-fit: contain;
 }
+
+/* ================================
+   Cadre de présentation
+================================ */
+
+.Presentation-box {
+  background: rgba(255, 255, 255, 0.75); /* fond transparent */
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 20px;
+
+  /* flou moderne */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+
+  /* ombre élégante */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+  /* IMPORTANT : reste derrière le menu */
+  position: relative;
+  z-index: 1;
+}
+
+/* Le menu doit rester au-dessus */
+nav.menu,
+.menu-metier .submenu {
+  z-index: 999999;
+  position: relative;
+}
