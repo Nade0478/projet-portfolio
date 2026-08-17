@@ -8,14 +8,8 @@ export default function Cons() {
       label: "Projets",
       projets: [
         {
-          name: "Application Laravel",
-          description: "CRUD complet avec authentification.",
-          video: "/assets/videos/laravel-demo.mp4",
-          link: "https://github.com/Nade0478",
-        },
-        {
-          name: "Projet React",
-          description: "Interface moderne en React.",
+          name: "Projets",
+          description: "CRUD complet avec authentification et Interface moderne en React.",
           link: "https://github.com/Nade0478",
         },
       ],
