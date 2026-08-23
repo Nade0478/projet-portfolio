@@ -25,7 +25,7 @@ const sections = [
       },
       {
         name: "Captures de développement",
-        link: "/portfolio/capture-developpement",
+        link: "/portfolio/capture-code-deploiement",
       },
       {
         name: "Captures des tests",

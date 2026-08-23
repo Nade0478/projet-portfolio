@@ -1,5 +1,28 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/SkillsTable.css";
+
+function ProjectLink({ link }) {
+  if (!link) {
+    return null;
+  }
+
+  const isExternal = link.indexOf("http") === 0;
+
+  if (isExternal) {
+    return (
+      <a href={link} target="_blank" rel="noreferrer" className="project-link">
+        Voir le projet
+      </a>
+    );
+  }
+
+  return (
+    <Link to={link} className="project-link">
+      Voir le projet
+    </Link>
+  );
+}
 
 export default function SkillsTable({ title, sections }) {
   return (
@@ -10,7 +33,6 @@ export default function SkillsTable({ title, sections }) {
         <div key={index} className="skills-section">
           <h3 className="skills-section-title">{section.label}</h3>
 
-          {/* Liste simple */}
           {section.items && (
             <ul className="skills-list">
               {section.items.map((item, i) => (
@@ -19,7 +41,6 @@ export default function SkillsTable({ title, sections }) {
             </ul>
           )}
 
-          {/* Projets */}
           {section.projets && (
             <div className="projets-grid">
               {section.projets.map((projet, i) => (
@@ -35,16 +56,7 @@ export default function SkillsTable({ title, sections }) {
                   <h4>{projet.name}</h4>
                   <p>{projet.description}</p>
 
-                  {projet.link && (
-                    <a
-                      href={projet.link}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="project-link"
-                    >
-                      Voir le projet
-                    </a>
-                  )}
+                  <ProjectLink link={projet.link} />
                 </div>
               ))}
             </div>
