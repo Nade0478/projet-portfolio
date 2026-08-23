@@ -18,19 +18,19 @@ export default function Menu() {
               <Link to="/metier/dev">Développement Web</Link>
             </li>
             <li>
-              <Link to="/test">Test Logiciel</Link>
+              <Link to="/metier/test">Test Logiciel</Link>
             </li>
             <li>
-              <Link to="/cyber">Cybersécurité</Link>
+              <Link to="/metier/cyber">Cybersécurité</Link>
             </li>
             <li>
-              <Link to="/projet">Gestion de projet</Link>
+              <Link to="/metier/projet">Gestion de projet</Link>
             </li>
             <li>
-              <Link to="/cons">Conseillère clientèle à distance</Link>
+              <Link to="/metier/cons">Conseillère clientèle à distance</Link>
             </li>
             <li>
-              <Link to="/adm">Secrétariat et administration</Link>
+              <Link to="/metier/adm">Secrétariat et administration</Link>
             </li>
           </ul>
         </li>
