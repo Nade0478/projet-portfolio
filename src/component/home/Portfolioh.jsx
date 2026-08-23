@@ -5,12 +5,12 @@ import backgroundImage from "../../assets/fond-ecran-portfolio.png";
 
 export default function Portfolioh() {
   const captures = [
-    { name: "Conception", link: "/capture-conception" },
-    { name: "Développement", link: "/capture-developpement" },
-    { name: "Tests", link: "/capture-test" },
-    { name: "Cybersécurité", link: "/capture-security" },
-    { name: "Projet", link: "/capture-projet" },
-    { name: "Autres", link: "/capture-autre" },
+    { name: "Conception", link: "/portfolio/capture-conception" },
+    { name: "Développement", link: "/portfolio/capture-code-deploiement" },
+    { name: "Tests", link: "/portfolio/capture-test" },
+    { name: "Cybersécurité", link: "/portfolio/capture-security" },
+    { name: "Projet", link: "/portfolio/capture-projet" },
+    { name: "Autres", link: "/portfolio/capture-autre" },
   ];
 
   return (

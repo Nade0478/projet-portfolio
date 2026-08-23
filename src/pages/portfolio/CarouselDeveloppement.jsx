@@ -1,6 +1,5 @@
 import React from "react";
-import CarouselDeveloppement from "../../component/CarouselDeveloppement.jsx";
-
+import CarouselCaptureCodeDeploiement from "../../component/CarouselCaptureCodeDeploiement";
 
 function importAll(r) {
   return r.keys().map((key) => ({
@@ -24,7 +23,7 @@ export default function CaptureDeveloppement() {
         Captures de Développement
       </h1>
 
-      <CarouselDeveloppement captures={captures} />
+      <CarouselCaptureCodeDeploiement captures={captures} />
     </div>
   );
 }

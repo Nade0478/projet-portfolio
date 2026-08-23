@@ -56,7 +56,7 @@ function App() {
           element={<CaptureConception />}
         />
         <Route
-          path="/portfolio/capture-developpement"
+          path="/portfolio/capture-code-deploiement"
           element={<CaptureDeveloppement />}
         />
         <Route path="/portfolio/capture-test" element={<CaptureTest />} />
