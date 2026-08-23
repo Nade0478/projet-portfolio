@@ -1,9 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/Style.css";
+import "../../styles/Style.css";
 import backgroundImage from "../../assets/fond-ecran-portfolio.png";
 
 export default function Portfolioh() {
+  const captures = [
+    { name: "Conception", link: "/capture-conception" },
+    { name: "Développement", link: "/capture-developpement" },
+    { name: "Tests", link: "/capture-test" },
+    { name: "Cybersécurité", link: "/capture-security" },
+    { name: "Projet", link: "/capture-projet" },
+    { name: "Autres", link: "/capture-autre" },
+  ];
+
   return (
     <div
       className="font-ecran"
@@ -17,18 +26,23 @@ export default function Portfolioh() {
         />
 
         <h1 className="portfolio-name">Nadège Gautier</h1>
-
         <h2 className="portfolio-job">
           Développeuse Web • Testeuse Logicielle • Assistante Cheffe de Projet
         </h2>
 
         <p className="portfolio-presentation">
           Passionnée par le développement web, les tests logiciels et la gestion
-          de projet, j’accompagne les entreprises dans la création de solutions
+          de projet, j'accompagne les entreprises dans la création de solutions
           fiables, modernes et sécurisées.
         </p>
 
-        <div className="portfolio-grid">{/* tes liens */}</div>
+        <div className="portfolio-grid">
+          {captures.map((capture, i) => (
+            <Link key={i} to={capture.link} className="portfolio-card">
+              {capture.name}
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   );

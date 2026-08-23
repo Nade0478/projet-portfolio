@@ -35,32 +35,37 @@ function App() {
       <Routes>
         {/* Pages principales */}
         <Route path="/" element={<Home />} />
-        <Route path="/projet-portfolio" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cv" element={<CV />} />
         <Route path="/portfolio" element={<Portfolio />} />
 
         {/* Pages métier */}
-        <Route path="/dev" element={<Dev />} />
-        <Route path="/test" element={<Test />} />
-        <Route path="/projet" element={<Projet />} />
-        <Route path="/cyber" element={<Cyber />} />
-        <Route path="/adm" element={<Adm />} />
-        <Route path="/cons" element={<Cons />} />
-        <Route path="/div" element={<Div />} />
-        <Route path="/uix" element={<Uix />} />
+        <Route path="/metier/dev" element={<Dev />} />
+        <Route path="/metier/test" element={<Test />} />
+        <Route path="/metier/projet" element={<Projet />} />
+        <Route path="/metier/cyber" element={<Cyber />} />
+        <Route path="/metier/adm" element={<Adm />} />
+        <Route path="/metier/cons" element={<Cons />} />
+        <Route path="/metier/div" element={<Div />} />
+        <Route path="/metier/uix" element={<Uix />} />
 
         {/* Pages carousels */}
-        <Route path="/capture-conception" element={<CaptureConception />} />
         <Route
-          path="/capture-developpement"
+          path="/portfolio/capture-conception"
+          element={<CaptureConception />}
+        />
+        <Route
+          path="/portfolio/capture-developpement"
           element={<CaptureDeveloppement />}
         />
-        <Route path="/capture-test" element={<CaptureTest />} />
-        <Route path="/capture-projet" element={<CaptureProjet />} />
-        <Route path="/capture-security" element={<CaptureSecurity />} />
-        <Route path="/capture-autre" element={<CaptureAutre />} />
+        <Route path="/portfolio/capture-test" element={<CaptureTest />} />
+        <Route path="/portfolio/capture-projet" element={<CaptureProjet />} />
+        <Route
+          path="/portfolio/capture-security"
+          element={<CaptureSecurity />}
+        />
+        <Route path="/portfolio/capture-autre" element={<CaptureAutre />} />
       </Routes>
 
       <Footer />

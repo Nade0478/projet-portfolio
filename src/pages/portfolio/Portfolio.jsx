@@ -21,27 +21,27 @@ const sections = [
     projets: [
       {
         name: "Captures de conception",
-        link: "/capture-conception",
+        link: "/portfolio/capture-conception",
       },
       {
         name: "Captures de développement",
-        link: "/capture-developpement",
+        link: "/portfolio/capture-developpement",
       },
       {
         name: "Captures des tests",
-        link: "/capture-test",
+        link: "/portfolio/capture-test",
       },
       {
         name: "Captures cybersécurité",
-        link: "/capture-security",
+        link: "/portfolio/capture-security",
       },
       {
         name: "Captures de projet",
-        link: "/capture-projet",
+        link: "/portfolio/capture-projet",
       },
       {
         name: "Captures autres",
-        link: "/capture-autre",
+        link: "/portfolio/capture-autre",
       },
     ],
   },
