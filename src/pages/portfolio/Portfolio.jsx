@@ -21,11 +21,11 @@ const sections = [
     projets: [
       {
         name: "Captures de conception",
-        link: "/portfolio/capture-conception",
+        link: "/portfolio/CarouselConception",
       },
       {
         name: "Captures de développement",
-        link: "/portfolio/capture-code-deploiement",
+        link: "/portfolio/CarouselDeploiement",
       },
       {
         name: "Captures des tests",
@@ -33,15 +33,15 @@ const sections = [
       },
       {
         name: "Captures cybersécurité",
-        link: "/portfolio/capture-security",
+        link: "/portfolio/CarouselSecurity",
       },
       {
         name: "Captures de projet",
-        link: "/portfolio/capture-projet",
+        link: "/portfolio/CarouselProjet",
       },
       {
         name: "Captures autres",
-        link: "/portfolio/capture-autre",
+        link: "/portfolio/CarouselAutre",
       },
     ],
   },

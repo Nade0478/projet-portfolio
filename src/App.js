@@ -15,12 +15,12 @@ import Div from "./pages/metier/Div";
 import Uix from "./pages/metier/Uix";
 
 // Pages carousels
-import CaptureDeveloppement from "./pages/portfolio/CarouselDeveloppement";
-import CaptureConception from "./pages/portfolio/CarouselConception";
+import CarouselDeveloppement from "./pages/portfolio/CarouselDeveloppement";
+import CarouselConception from "./pages/portfolio/CarouselConception";
 import CarouselTest from "./pages/portfolio/CarouselTest";
-import CaptureAutre from "./pages/portfolio/CarouselAutre";
-import CaptureProjet from "./pages/portfolio/CarouselProjet";
-import CaptureSecurity from "./pages/portfolio/CarouselSecurity";
+import CarouselAutre from "./pages/portfolio/CarouselAutre";
+import CarouselProjet from "./pages/portfolio/CarouselProjet";
+import CarouselSecurity from "./pages/portfolio/CarouselSecurity";
 
 import Menu from "./component/basics/Menu";
 import Footer from "./component/basics/Footer";
@@ -51,20 +51,20 @@ function App() {
 
         {/* Pages carousels */}
         <Route
-          path="/portfolio/capture-conception"
-          element={<CaptureConception />}
+          path="/portfolio/CarouselConception"
+          element={<CarouselConception />}
         />
         <Route
-          path="/portfolio/capture-code-deploiement"
-          element={<CaptureDeveloppement />}
+          path="/portfolio/CarouselDeploiement"
+          element={<CarouselDeveloppement />}
         />
         <Route path="/portfolio/CarouselTest" element={<CarouselTest />} />
-        <Route path="/portfolio/capture-projet" element={<CaptureProjet />} />
+        <Route path="/portfolio/CarouselProjet" element={<CarouselProjet />} />
         <Route
-          path="/portfolio/capture-security"
-          element={<CaptureSecurity />}
+          path="/portfolio/CarouselSecurity"
+          element={<CarouselSecurity />}
         />
-        <Route path="/portfolio/capture-autre" element={<CaptureAutre />} />
+        <Route path="/portfolio/CarouselAutre" element={<CarouselAutre />} />
       </Routes>
 
       <Footer />
