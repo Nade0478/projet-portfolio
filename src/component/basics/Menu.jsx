@@ -15,7 +15,7 @@ export default function Menu() {
 
           <ul className="submenu">
             <li>
-              <Link to="/dev">Développement Web</Link>
+              <Link to="/metier/dev">Développement Web</Link>
             </li>
             <li>
               <Link to="/test">Test Logiciel</Link>
