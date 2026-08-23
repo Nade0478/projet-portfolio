@@ -10,7 +10,7 @@ export default function Portfolioh() {
     { name: "Tests", link: "/portfolio/capture-test" },
     { name: "Cybersécurité", link: "/portfolio/capture-security" },
     { name: "Projet", link: "/portfolio/capture-projet" },
-    { name: "Autres", link: "/portfolio/capture-autre" },
+    { name: "Autres", link: "/portfolio/CarouselAutre" },
   ];
 
   return (
