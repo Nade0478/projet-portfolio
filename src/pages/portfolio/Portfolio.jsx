@@ -29,7 +29,7 @@ const sections = [
       },
       {
         name: "Captures des tests",
-        link: "/portfolio/capture-test",
+        link: "/portfolio/CarouselTest",
       },
       {
         name: "Captures cybersécurité",

@@ -17,7 +17,7 @@ import Uix from "./pages/metier/Uix";
 // Pages carousels
 import CaptureDeveloppement from "./pages/portfolio/CarouselDeveloppement";
 import CaptureConception from "./pages/portfolio/CarouselConception";
-import CaptureTest from "./pages/portfolio/CarouselTest";
+import CarouselTest from "./pages/portfolio/CarouselTest";
 import CaptureAutre from "./pages/portfolio/CarouselAutre";
 import CaptureProjet from "./pages/portfolio/CarouselProjet";
 import CaptureSecurity from "./pages/portfolio/CarouselSecurity";
@@ -58,7 +58,7 @@ function App() {
           path="/portfolio/capture-code-deploiement"
           element={<CaptureDeveloppement />}
         />
-        <Route path="/portfolio/capture-test" element={<CaptureTest />} />
+        <Route path="/portfolio/CarouselTest" element={<CarouselTest />} />
         <Route path="/portfolio/capture-projet" element={<CaptureProjet />} />
         <Route
           path="/portfolio/capture-security"
