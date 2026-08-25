@@ -31,6 +31,7 @@ export default function CarouselCaptureAutre({ captures }) {
           href={captures[index].file}
           target="_blank"
           rel="noopener noreferrer"
+          className="open-pdf"
         >
           Ouvrir Capture d’écran
         </a>
