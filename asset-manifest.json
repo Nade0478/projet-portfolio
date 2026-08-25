@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/projet-portfolio/static/css/main.e35be55a.css",
-    "main.js": "/projet-portfolio/static/js/main.86a2a771.js",
+    "main.js": "/projet-portfolio/static/js/main.222e34d3.js",
     "static/media/fond-ecran-portfolio.png": "/projet-portfolio/static/media/fond-ecran-portfolio.7a086b99ed678522d23f.png",
+    "static/media/Méthode-Agile.png": "/projet-portfolio/static/media/Méthode-Agile.31bcb5cf0d92ef9bdcea.png",
     "static/media/Capture-maquettes2.png": "/projet-portfolio/static/media/Capture-maquettes2.d890ad375c60926db5c9.png",
+    "static/media/image.png": "/projet-portfolio/static/media/image.60b62bc1e8af6a2bbea9.png",
     "static/media/Capture-maquette2.png": "/projet-portfolio/static/media/Capture-maquette2.026d04559746158801f1.png",
     "static/media/Trivy-faille-vulnérabilités-2.jpg": "/projet-portfolio/static/media/Trivy-faille-vulnérabilités-2.3443c0fbe87ce059a9ea.jpg",
     "static/media/Capture-maquette.png": "/projet-portfolio/static/media/Capture-maquette.a8ad1736bfdb3b6f624e.png",
     "static/media/Capture-deploiement-front-netifly.png": "/projet-portfolio/static/media/Capture-deploiement-front-netifly.b91473fd596ace77aaae.png",
     "static/media/Workbench-Sql.jpg": "/projet-portfolio/static/media/Workbench-Sql.6d67fd503cef38ee8ad8.jpg",
     "static/media/CV architecture et application.pdf": "/projet-portfolio/static/media/CV architecture et application.952325a400982c7fcde3.pdf",
-    "static/media/image.png": "/projet-portfolio/static/media/image.60b62bc1e8af6a2bbea9.png",
     "static/media/CV Conseiller clientèle à distance.pdf": "/projet-portfolio/static/media/CV Conseiller clientèle à distance.0bb7f89b1e587c433b7e.pdf",
     "static/media/CV_secrétaire administrative.pdf": "/projet-portfolio/static/media/CV_secrétaire administrative.042fe7a139fa46c3ffdc.pdf",
     "static/media/Déploiement-troisieme-phase-validee.jpg": "/projet-portfolio/static/media/Déploiement-troisieme-phase-validee.c8fce81c47cec62963f9.jpg",
@@ -38,10 +39,10 @@
     "static/media/LEAFLET2.jpg": "/projet-portfolio/static/media/LEAFLET2.3b0ab06ad48a1367d241.jpg",
     "index.html": "/projet-portfolio/index.html",
     "main.e35be55a.css.map": "/projet-portfolio/static/css/main.e35be55a.css.map",
-    "main.86a2a771.js.map": "/projet-portfolio/static/js/main.86a2a771.js.map"
+    "main.222e34d3.js.map": "/projet-portfolio/static/js/main.222e34d3.js.map"
   },
   "entrypoints": [
     "static/css/main.e35be55a.css",
-    "static/js/main.86a2a771.js"
+    "static/js/main.222e34d3.js"
   ]
 }
