@@ -60,8 +60,7 @@ function App() {
         />
         <Route path="/portfolio/CarouselTest" element={<CarouselTest />} />
         <Route path="/portfolio/CarouselProjet" element={<CarouselProjet />} />
-        <Route path="/portfolio/CarouselSecurity" element={<CarouselSecurity />}
-        />
+        <Route path="/portfolio/CarouselSecurity" element={<CarouselSecurity />} />
         <Route path="/portfolio/CarouselAutre" element={<CarouselAutre />} />
       </Routes>
 
