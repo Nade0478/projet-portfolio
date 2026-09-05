@@ -103,10 +103,10 @@ export default function Test() {
         Formation de Testeur Certifié Niveau Fondation ISTQB
       </h1>
 
-      {/* BOUTON VERS LE CAROUSEL */}
+      {/* BOUTON VERS LE CAROUSEL
       <Link to="/capture-test" className="open-pdf">
         Voir les captures de tests
-      </Link>
+      </Link> */}
 
       <div className="certificate-intro">
         <h2>2024 avec M2i Formation</h2>
