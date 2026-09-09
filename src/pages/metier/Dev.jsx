@@ -79,9 +79,9 @@ export default function Dev() {
   return (
     <div className="page-container">
       {/* TITRE PRINCIPAL */}
-      <h1 className="page-title">
-        Développement Web Full Stack avec Studi 2021-2026
-      </h1>
+      <h1 className="page-title">Développement Web Full Stack</h1>
+
+      <h3> Formation de Développeur Full Stack avec Studi 2021-2026</h3>
 
       {/* SOUS-TITRE : LES 2 DIPLÔMES */}
       <h2 className="page-subtitle">
@@ -136,7 +136,13 @@ export default function Dev() {
       {/* BLOC CDA ARINFO */}
       {/* ----------------------------- */}
       <div className="certificate-intro">
-        <h2>Concepteur Développeur d’Applications à Arinfo (2024– validé en 2025)</h2>
+        <h2>Concepteur Développeur d’Applications</h2>
+
+        <h3>
+          {" "}
+          Formation de Concepteur Développeur d'Application à Arinfo (2024–
+          validé en 2025)
+        </h3>
 
         <p className="certificate-description">
           Cette formation Bac+3/4, suivie chez Arinfo, m’a permis de renforcer

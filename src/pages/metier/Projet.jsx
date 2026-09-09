@@ -87,12 +87,15 @@ export default function Projet() {
     <div className="page-container">
       {/* TITRE PRINCIPAL */}
       <h1 className="page-title">
-        Certificat Professionnel Gestion de Projet Google
+        Assistante Gestion de Projet
       </h1>
 
       {/* SECTION INTRO CERTIFICAT */}
       <div className="certificate-intro">
-        <h2>Certificat obtenu le 31/12/2026</h2>
+        <h2>
+          Certificat Professionnel Gestion de Projet Google obtenu le
+          31/12/2026
+        </h2>
 
         <p className="certificate-description">
           Ce certificat Google Career Certificate m’a permis d’acquérir une

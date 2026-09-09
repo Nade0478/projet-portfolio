@@ -54,9 +54,9 @@ export default function Cons() {
   return (
     <div className="page-container">
       {/* TITRE PRINCIPAL */}
-      <h1 className="page-title">
-        Conseillère Clientèle à Distance (validé en VAE à l'AFPA Rennes en 2016)
-      </h1>
+      <h1 className="page-title">Conseillère Clientèle à Distance</h1>
+
+      <h3> (validé en VAE à l'AFPA Rennes en 2016)</h3>
 
       {/* INTRO */}
       <div className="certificate-intro">

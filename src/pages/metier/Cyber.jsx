@@ -156,8 +156,10 @@ export default function Cyber() {
   return (
     <div className="page-container">
       <h1 className="page-title">
-        Formation Google Coursera – Cybersécurité (2026 - en cours)
+        Assistant en Cybersécurité
       </h1>
+
+      <h3>Formation Google Coursera - Cybersécurité (2026 - en cours)</h3>
 
       <div className="certificate-intro">
         <p className="certificate-description">

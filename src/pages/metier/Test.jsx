@@ -99,9 +99,7 @@ export default function Test() {
 
   return (
     <div className="page-container">
-      <h1 className="page-title">
-        Formation de Testeur Certifié Niveau Fondation ISTQB
-      </h1>
+      <h1 className="page-title">Testeur ISTQB</h1>
 
       {/* BOUTON VERS LE CAROUSEL
       <Link to="/capture-test" className="open-pdf">
@@ -109,7 +107,7 @@ export default function Test() {
       </Link> */}
 
       <div className="certificate-intro">
-        <h2>2024 avec M2i Formation</h2>
+        <h2>2024 avec M2i Formation Certifié Niveau Fondation</h2>
 
         <p className="certificate-description">
           Cette certification internationale valide ma maîtrise des fondamentaux
